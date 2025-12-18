@@ -1,0 +1,45 @@
+{
+   "creator": "Yosys 0.46 (git sha1 e97731b9dda91fa5fa53ed87df7c34163ba59a41, clang++ 16.0.6 -fPIC -O3)",
+   "invocation": "stat -json -liberty /Users/refikyalcin/vlsi/digital/io-ring-demo/config/runs/RUN_2025-12-18_13-57-47/tmp/3788d5591b184699bad519bdac3596ca.lib ",
+   "modules": {
+      "\\top": {
+         "num_wires":         56,
+         "num_wire_bits":     56,
+         "num_pub_wires":     4,
+         "num_pub_wire_bits": 4,
+         "num_ports":         4,
+         "num_port_bits":     4,
+         "num_memories":      0,
+         "num_memory_bits":   0,
+         "num_processes":     0,
+         "num_cells":         84,
+         "area":              195.187200,
+         "num_cells_by_type": {
+            "sky130_fd_io__top_gpiov2": 26,
+            "sky130_fd_io__top_ground_hvc_wpad": 3,
+            "sky130_fd_io__top_power_hvc_wpad": 3,
+            "sky130_fd_sc_hd__conb_1": 52
+         }
+      }
+   },
+      "design": {
+         "num_wires":         56,
+         "num_wire_bits":     56,
+         "num_pub_wires":     4,
+         "num_pub_wire_bits": 4,
+         "num_ports":         4,
+         "num_port_bits":     4,
+         "num_memories":      0,
+         "num_memory_bits":   0,
+         "num_processes":     0,
+         "num_cells":         84,
+         "area":              195.187200,
+         "num_cells_by_type": {
+            "sky130_fd_io__top_gpiov2": 26,
+            "sky130_fd_io__top_ground_hvc_wpad": 3,
+            "sky130_fd_io__top_power_hvc_wpad": 3,
+            "sky130_fd_sc_hd__conb_1": 52
+         }
+      }
+}
+

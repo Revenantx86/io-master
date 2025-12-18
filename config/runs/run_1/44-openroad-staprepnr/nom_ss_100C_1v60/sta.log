@@ -1,0 +1,357 @@
+Reading timing models for corner nom_ss_100C_1v60…
+Reading cell library for the 'nom_ss_100C_1v60' corner at '/Users/refikyalcin/.ciel/ciel/sky130/versions/0fe599b2afb6708d281543108caf8310912f54af/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ss_100C_1v60.lib'…
+Reading top-level netlist at '/Users/refikyalcin/vlsi/digital/io-ring-demo/config/runs/run_1/38-yosys-synthesis/top.nl.v'…
+Linking design 'top' from netlist…
+Warning: /Users/refikyalcin/vlsi/digital/io-ring-demo/config/runs/run_1/38-yosys-synthesis/top.nl.v line 220, module sky130_fd_io__top_gpiov2 not found. Creating black box for \gen_east_pads[0].pad_gpio_in .
+Warning: /Users/refikyalcin/vlsi/digital/io-ring-demo/config/runs/run_1/38-yosys-synthesis/top.nl.v line 532, module sky130_fd_io__top_power_hvc_wpad not found. Creating black box for pad_vccd_aux.
+Warning: /Users/refikyalcin/vlsi/digital/io-ring-demo/config/runs/run_1/38-yosys-synthesis/top.nl.v line 562, module sky130_fd_io__top_ground_hvc_wpad not found. Creating black box for pad_vssa_main.
+Reading design constraints file at '/nix/store/7x1qis8my0i44w1lx1yq2wiwh6yc774i-python3-3.11.9-env/lib/python3.11/site-packages/librelane/scripts/base.sdc'…
+Warning: base.sdc line 15, port 'clk' not found.
+[INFO] Using clock clk…
+[INFO] Setting output delay to: 2.0
+[INFO] Setting input delay to: 2.0
+Warning: base.sdc line 32, port 'clk' not found.
+[INFO] Setting load to: 0.033442
+[INFO] Setting clock uncertainty to: 0.25
+[INFO] Setting clock transition to: 0.1499999999999999944488848768742172978818416595458984375
+Warning: base.sdc line 69, transition time can not be specified for virtual clocks.
+[INFO] Setting timing derate to: 5%
+%OL_CREATE_REPORT min.rpt
+
+===========================================================================
+report_checks -path_delay min (Hold)
+============================================================================
+======================= nom_ss_100C_1v60 Corner ===================================
+
+No paths found.
+
+%OL_END_REPORT
+%OL_CREATE_REPORT max.rpt
+
+===========================================================================
+report_checks -path_delay max (Setup)
+============================================================================
+======================= nom_ss_100C_1v60 Corner ===================================
+
+No paths found.
+
+%OL_END_REPORT
+%OL_CREATE_REPORT checks.rpt
+
+===========================================================================
+report_checks -unconstrained
+===========================================================================
+======================= nom_ss_100C_1v60 Corner ===================================
+
+Startpoint: vccd1 (input port clocked by clk)
+Endpoint: gen_east_pads[0].pad_gpio_in/vccd_h (internal pin)
+Path Group: unconstrained
+Path Type: max
+
+Fanout         Cap        Slew       Delay        Time   Description
+---------------------------------------------------------------------------------------------
+                                  2.000000    2.000000 ^ input external delay
+    64    0.033442    0.246578    0.168311    2.168311 ^ vccd1 (inout)
+                                                         vccd1 (net)
+                      0.246578    0.000000    2.168311 ^ gen_east_pads[0].pad_gpio_in/vccd_h (sky130_fd_io__top_gpiov2)
+                                              2.168311   data arrival time
+---------------------------------------------------------------------------------------------
+(Path is unconstrained)
+
+
+
+
+===========================================================================
+report_checks --slack_max -0.01
+============================================================================
+======================= nom_ss_100C_1v60 Corner ===================================
+
+No paths found.
+
+
+===========================================================================
+ report_check_types -max_slew -max_cap -max_fanout -violators
+============================================================================
+======================= nom_ss_100C_1v60 Corner ===================================
+
+max fanout
+
+Pin                                   Limit Fanout  Slack
+---------------------------------------------------------
+vccd1                                    10     64    -54 (VIOLATED)
+vdda1                                    10     64    -54 (VIOLATED)
+vssa1                                    10     64    -54 (VIOLATED)
+vssd1                                    10     64    -54 (VIOLATED)
+
+
+
+===========================================================================
+report_parasitic_annotation -report_unannotated
+============================================================================
+Found 108 unannotated drivers.
+ vccd1
+ vdda1
+ vssa1
+ vssd1
+ _052_/HI
+ _052_/LO
+ _053_/HI
+ _053_/LO
+ _054_/HI
+ _054_/LO
+ _055_/HI
+ _055_/LO
+ _056_/HI
+ _056_/LO
+ _057_/HI
+ _057_/LO
+ _058_/HI
+ _058_/LO
+ _059_/HI
+ _059_/LO
+ _060_/HI
+ _060_/LO
+ _061_/HI
+ _061_/LO
+ _062_/HI
+ _062_/LO
+ _063_/HI
+ _063_/LO
+ _064_/HI
+ _064_/LO
+ _065_/HI
+ _065_/LO
+ _066_/HI
+ _066_/LO
+ _067_/HI
+ _067_/LO
+ _068_/HI
+ _068_/LO
+ _069_/HI
+ _069_/LO
+ _070_/HI
+ _070_/LO
+ _071_/HI
+ _071_/LO
+ _072_/HI
+ _072_/LO
+ _073_/HI
+ _073_/LO
+ _074_/HI
+ _074_/LO
+ _075_/HI
+ _075_/LO
+ _076_/HI
+ _076_/LO
+ _077_/HI
+ _077_/LO
+ _078_/HI
+ _078_/LO
+ _079_/HI
+ _079_/LO
+ _080_/HI
+ _080_/LO
+ _081_/HI
+ _081_/LO
+ _082_/HI
+ _082_/LO
+ _083_/HI
+ _083_/LO
+ _084_/HI
+ _084_/LO
+ _085_/HI
+ _085_/LO
+ _086_/HI
+ _086_/LO
+ _087_/HI
+ _087_/LO
+ _088_/HI
+ _088_/LO
+ _089_/HI
+ _089_/LO
+ _090_/HI
+ _090_/LO
+ _091_/HI
+ _091_/LO
+ _092_/HI
+ _092_/LO
+ _093_/HI
+ _093_/LO
+ _094_/HI
+ _094_/LO
+ _095_/HI
+ _095_/LO
+ _096_/HI
+ _096_/LO
+ _097_/HI
+ _097_/LO
+ _098_/HI
+ _098_/LO
+ _099_/HI
+ _099_/LO
+ _100_/HI
+ _100_/LO
+ _101_/HI
+ _101_/LO
+ _102_/HI
+ _102_/LO
+ _103_/HI
+ _103_/LO
+Found 0 partially unannotated drivers.
+
+===========================================================================
+max slew violation count 0
+%OL_METRIC_I design__max_slew_violation__count__corner:nom_ss_100C_1v60 0
+max fanout violation count 4
+%OL_METRIC_I design__max_fanout_violation__count__corner:nom_ss_100C_1v60 4
+max cap violation count 0
+%OL_METRIC_I design__max_cap_violation__count__corner:nom_ss_100C_1v60 0
+============================================================================
+
+===========================================================================
+check_setup -verbose -unconstrained_endpoints -multiple_clock -no_clock -no_input_delay -loops -generated_clocks
+===========================================================================
+Warning: There are 4 unconstrained endpoints.
+  vccd1
+  vdda1
+  vssa1
+  vssd1
+%OL_END_REPORT
+%OL_CREATE_REPORT power.rpt
+
+===========================================================================
+ report_power
+============================================================================
+======================= nom_ss_100C_1v60 Corner ===================================
+
+Group                    Internal    Switching      Leakage        Total
+                            Power        Power        Power        Power (Watts)
+------------------------------------------------------------------------
+Sequential           0.000000e+00 0.000000e+00 0.000000e+00 0.000000e+00   0.0%
+Combinational        0.000000e+00 0.000000e+00 1.577191e-10 1.577191e-10 100.0%
+Clock                0.000000e+00 0.000000e+00 0.000000e+00 0.000000e+00   0.0%
+Macro                0.000000e+00 0.000000e+00 0.000000e+00 0.000000e+00   0.0%
+Pad                  0.000000e+00 0.000000e+00 0.000000e+00 0.000000e+00   0.0%
+------------------------------------------------------------------------
+Total                0.000000e+00 0.000000e+00 1.577191e-10 1.577191e-10 100.0%
+                             0.0%         0.0%       100.0%
+%OL_METRIC_F power__internal__total 0.0
+%OL_METRIC_F power__switching__total 0.0
+%OL_METRIC_F power__leakage__total 1.5771912942330601e-10
+%OL_METRIC_F power__total 1.5771912942330601e-10
+
+%OL_END_REPORT
+%OL_CREATE_REPORT skew.min.rpt
+
+===========================================================================
+Clock Skew (Hold)
+============================================================================
+%OL_METRIC_F clock__skew__worst_hold__corner:nom_ss_100C_1v60 0.0
+======================= nom_ss_100C_1v60 Corner ===================================
+
+Clock clk
+No launch/capture paths found.
+
+%OL_END_REPORT
+%OL_CREATE_REPORT skew.max.rpt
+
+===========================================================================
+Clock Skew (Setup)
+============================================================================
+%OL_METRIC_F clock__skew__worst_setup__corner:nom_ss_100C_1v60 0.0
+======================= nom_ss_100C_1v60 Corner ===================================
+
+Clock clk
+No launch/capture paths found.
+
+%OL_END_REPORT
+%OL_CREATE_REPORT ws.min.rpt
+
+===========================================================================
+Worst Slack (Hold)
+============================================================================
+%OL_METRIC_F timing__hold__ws__corner:nom_ss_100C_1v60 1.0000000433293989e+39
+nom_ss_100C_1v60: 1.0000000433293989e+39
+%OL_END_REPORT
+%OL_CREATE_REPORT ws.max.rpt
+
+===========================================================================
+Worst Slack (Setup)
+============================================================================
+%OL_METRIC_F timing__setup__ws__corner:nom_ss_100C_1v60 1.0000000433293989e+39
+nom_ss_100C_1v60: 1.0000000433293989e+39
+%OL_END_REPORT
+%OL_CREATE_REPORT tns.min.rpt
+
+===========================================================================
+Total Negative Slack (Hold)
+============================================================================
+%OL_METRIC_F timing__hold__tns__corner:nom_ss_100C_1v60 0.0
+nom_ss_100C_1v60: 0.0
+%OL_END_REPORT
+%OL_CREATE_REPORT tns.max.rpt
+
+===========================================================================
+Total Negative Slack (Setup)
+============================================================================
+%OL_METRIC_F timing__setup__tns__corner:nom_ss_100C_1v60 0.0
+nom_ss_100C_1v60: 0.0
+%OL_END_REPORT
+%OL_CREATE_REPORT wns.min.rpt
+
+===========================================================================
+Worst Negative Slack (Hold)
+============================================================================
+%OL_METRIC_F timing__hold__wns__corner:nom_ss_100C_1v60 0
+nom_ss_100C_1v60: 0
+%OL_END_REPORT
+%OL_CREATE_REPORT wns.max.rpt
+
+===========================================================================
+Worst Negative Slack (Setup)
+============================================================================
+%OL_METRIC_F timing__setup__wns__corner:nom_ss_100C_1v60 0.0
+nom_ss_100C_1v60: 0.0
+%OL_END_REPORT
+%OL_CREATE_REPORT violator_list.rpt
+
+===========================================================================
+Violator List
+============================================================================
+%OL_METRIC_I timing__hold_vio__count__corner:nom_ss_100C_1v60 0
+%OL_METRIC_F timing__hold_r2r__ws__corner:nom_ss_100C_1v60 inf
+%OL_METRIC_I timing__hold_r2r_vio__count__corner:nom_ss_100C_1v60 0
+%OL_METRIC_I timing__setup_vio__count__corner:nom_ss_100C_1v60 0
+%OL_METRIC_F timing__setup_r2r__ws__corner:nom_ss_100C_1v60 inf
+%OL_METRIC_I timing__setup_r2r_vio__count__corner:nom_ss_100C_1v60 0
+%OL_END_REPORT
+%OL_CREATE_REPORT unpropagated.rpt
+clk
+%OL_END_REPORT
+%OL_CREATE_REPORT clock.rpt
+Clock: clk
+Sources: 
+Generated: no
+Virtual: yes
+Propagated: no
+Period: 10.000000
+
+===========================================================================
+report_clock_properties
+============================================================================
+Clock                   Period          Waveform
+----------------------------------------------------
+clk                  10.000000    0.000000  5.000000
+
+===========================================================================
+report_clock_latency
+============================================================================
+Clock clk
+
+
+===========================================================================
+report_clock_min_period
+============================================================================
+clk period_min = 0.00 fmax = inf
+%OL_END_REPORT
+Writing SDF files for all corners…

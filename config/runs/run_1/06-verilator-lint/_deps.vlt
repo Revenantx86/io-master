@@ -1,0 +1,5 @@
+`verilator_config
+lint_off -rule DECLFILENAME
+lint_off -rule EOFNEWLINE
+lint_off -rule UNDRIVEN -file "/Users/refikyalcin/vlsi/digital/io-ring-demo/config/runs/run_1/tmp/b7afab9806984e5b996aec31578b7935.bb.v"
+lint_off -rule UNUSEDSIGNAL -file "/Users/refikyalcin/vlsi/digital/io-ring-demo/config/runs/run_1/tmp/b7afab9806984e5b996aec31578b7935.bb.v"

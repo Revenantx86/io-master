@@ -1,0 +1,37 @@
+[WARNING ORD-0039] .openroad ignored with -python
+Placing the following macros:
+{'pad_vccd_main': ['pad_vccd_main', 200000, 805000, 'S'], 'pad_vssd_main': ['pad_vssd_main', 285000, 805000, 'S'], 'pad_vdda_main': ['pad_vdda_main', 370000, 805000, 'S'], 'pad_vssa_main': ['pad_vssa_main', 455000, 805000, 'S'], 'pad_clk': ['pad_clk', 540000, 805000, 'S'], 'pad_rst_n': ['pad_rst_n', 625000, 805000, 'S'], 'pad_vccd_aux': ['pad_vccd_aux', 710000, 805000, 'S'], 'pad_vssd_aux': ['pad_vssd_aux', 795000, 805000, 'S'], 'gen_south_pads\\[0\\].pad_gpio_out': ['gen_south_pads[0].pad_gpio_out', 200000, 0, 'N'], 'gen_south_pads\\[1\\].pad_gpio_out': ['gen_south_pads[1].pad_gpio_out', 285000, 0, 'N'], 'gen_south_pads\\[2\\].pad_gpio_out': ['gen_south_pads[2].pad_gpio_out', 370000, 0, 'N'], 'gen_south_pads\\[3\\].pad_gpio_out': ['gen_south_pads[3].pad_gpio_out', 455000, 0, 'N'], 'gen_south_pads\\[4\\].pad_gpio_out': ['gen_south_pads[4].pad_gpio_out', 540000, 0, 'N'], 'gen_south_pads\\[5\\].pad_gpio_out': ['gen_south_pads[5].pad_gpio_out', 625000, 0, 'N'], 'gen_south_pads\\[6\\].pad_gpio_out': ['gen_south_pads[6].pad_gpio_out', 710000, 0, 'N'], 'gen_south_pads\\[7\\].pad_gpio_out': ['gen_south_pads[7].pad_gpio_out', 795000, 0, 'N'], 'gen_east_pads\\[0\\].pad_gpio_in': ['gen_east_pads[0].pad_gpio_in', 805000, 200000, 'W'], 'gen_east_pads\\[1\\].pad_gpio_in': ['gen_east_pads[1].pad_gpio_in', 805000, 285000, 'W'], 'gen_east_pads\\[2\\].pad_gpio_in': ['gen_east_pads[2].pad_gpio_in', 805000, 370000, 'W'], 'gen_east_pads\\[3\\].pad_gpio_in': ['gen_east_pads[3].pad_gpio_in', 805000, 455000, 'W'], 'gen_east_pads\\[4\\].pad_gpio_in': ['gen_east_pads[4].pad_gpio_in', 805000, 540000, 'W'], 'gen_east_pads\\[5\\].pad_gpio_in': ['gen_east_pads[5].pad_gpio_in', 805000, 625000, 'W'], 'gen_east_pads\\[6\\].pad_gpio_in': ['gen_east_pads[6].pad_gpio_in', 805000, 710000, 'W'], 'gen_east_pads\\[7\\].pad_gpio_in': ['gen_east_pads[7].pad_gpio_in', 805000, 795000, 'W'], 'gen_west_pads\\[0\\].pad_analog': ['gen_west_pads[0].pad_analog', 0, 200000, 'E'], 'gen_west_pads\\[1\\].pad_analog': ['gen_west_pads[1].pad_analog', 0, 285000, 'E'], 'gen_west_pads\\[2\\].pad_analog': ['gen_west_pads[2].pad_analog', 0, 370000, 'E'], 'gen_west_pads\\[3\\].pad_analog': ['gen_west_pads[3].pad_analog', 0, 455000, 'E'], 'gen_west_pads\\[4\\].pad_analog': ['gen_west_pads[4].pad_analog', 0, 540000, 'E'], 'gen_west_pads\\[5\\].pad_analog': ['gen_west_pads[5].pad_analog', 0, 625000, 'E'], 'gen_west_pads\\[6\\].pad_analog': ['gen_west_pads[6].pad_analog', 0, 710000, 'E'], 'gen_west_pads\\[7\\].pad_analog': ['gen_west_pads[7].pad_analog', 0, 795000, 'E']}
+Design name: top
+Placing gen_east_pads\[0\].pad_gpio_in
+Placing gen_east_pads\[1\].pad_gpio_in
+Placing gen_east_pads\[2\].pad_gpio_in
+Placing gen_east_pads\[3\].pad_gpio_in
+Placing gen_east_pads\[4\].pad_gpio_in
+Placing gen_east_pads\[5\].pad_gpio_in
+Placing gen_east_pads\[6\].pad_gpio_in
+Placing gen_east_pads\[7\].pad_gpio_in
+Placing gen_south_pads\[0\].pad_gpio_out
+Placing gen_south_pads\[1\].pad_gpio_out
+Placing gen_south_pads\[2\].pad_gpio_out
+Placing gen_south_pads\[3\].pad_gpio_out
+Placing gen_south_pads\[4\].pad_gpio_out
+Placing gen_south_pads\[5\].pad_gpio_out
+Placing gen_south_pads\[6\].pad_gpio_out
+Placing gen_south_pads\[7\].pad_gpio_out
+Placing gen_west_pads\[0\].pad_analog
+Placing gen_west_pads\[1\].pad_analog
+Placing gen_west_pads\[2\].pad_analog
+Placing gen_west_pads\[3\].pad_analog
+Placing gen_west_pads\[4\].pad_analog
+Placing gen_west_pads\[5\].pad_analog
+Placing gen_west_pads\[6\].pad_analog
+Placing gen_west_pads\[7\].pad_analog
+Placing pad_clk
+Placing pad_rst_n
+Placing pad_vccd_aux
+Placing pad_vccd_main
+Placing pad_vdda_main
+Placing pad_vssa_main
+Placing pad_vssd_aux
+Placing pad_vssd_main
+Successfully placed 32 instances.

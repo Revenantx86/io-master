@@ -1,0 +1,21 @@
+Subprocess had a non-zero exit.
+Last 10 line(s):
+Storing AST representation for module `$abstract\sky130_fd_io__top_gpiov2'.
+Successfully finished Verilog frontend.
+
+7. Executing HIERARCHY pass (managing design hierarchy).
+
+8. Executing AST frontend in derive mode using pre-parsed AST for module `\top'.
+Generating RTLIL representation for module `\top'.
+
+8.1. Analyzing design hierarchy..
+ERROR: Module `sky130_fd_io__top_gpiov2' referenced in module `top' in cell `gen_west_pads[7].pad_analog' does not have a port named 'vssa_l'.
+
+Full log file: '../../digital/io-ring-demo/config/runs/run_1/05-yosys-jsonheader/yosys-jsonheader.log'
+[GRT-0010] Instance gen_east_pads\[5\].pad_gpio_in is not placed.
+[PDN-0179] Unable to repair all channels.
+[PSM-0069] Check connectivity failed on vccd1.
+[PSM-0087] vdda1 is not a supply net.
+[PSM-0069] Check connectivity failed on vssd1.
+[PSM-0087] vssa1 is not a supply net.
+[GRT-0028] Found 260 pins outside die area.

@@ -1,0 +1,26 @@
+102. Printing statistics.
+
+=== top ===
+
+   Number of wires:                 56
+   Number of wire bits:             56
+   Number of public wires:           4
+   Number of public wire bits:       4
+   Number of ports:                  4
+   Number of port bits:              4
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:                 84
+     sky130_fd_io__top_gpiov2       26
+     sky130_fd_io__top_ground_hvc_wpad      3
+     sky130_fd_io__top_power_hvc_wpad      3
+     sky130_fd_sc_hd__conb_1        52
+
+   Area for cell type \sky130_fd_io__top_power_hvc_wpad is unknown!
+   Area for cell type \sky130_fd_io__top_ground_hvc_wpad is unknown!
+   Area for cell type \sky130_fd_io__top_gpiov2 is unknown!
+
+   Chip area for module '\top': 195.187200
+     of which used for sequential elements: 0.000000 (0.00%)
+

@@ -1,0 +1,390 @@
+Reading OpenROAD database at '/Users/refikyalcin/vlsi/digital/io-ring-demo/config/runs/run_1/50-openroad-tapendcapinsertion/top.odb'…
+Reading library file at '/Users/refikyalcin/.ciel/ciel/sky130/versions/0fe599b2afb6708d281543108caf8310912f54af/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__tt_025C_1v80.lib'…
+Reading design constraints file at '/nix/store/7x1qis8my0i44w1lx1yq2wiwh6yc774i-python3-3.11.9-env/lib/python3.11/site-packages/librelane/scripts/base.sdc'…
+[WARNING STA-0366] port 'clk' not found.
+[INFO] Using clock clk…
+[INFO] Setting output delay to: 2.0
+[INFO] Setting input delay to: 2.0
+[WARNING STA-0366] port 'clk' not found.
+[INFO] Setting load to: 0.033442
+[INFO] Setting clock uncertainty to: 0.25
+[INFO] Setting clock transition to: 0.1499999999999999944488848768742172978818416595458984375
+[WARNING STA-0419] transition time can not be specified for virtual clocks.
+[INFO] Setting timing derate to: 5%
+[WARNING STA-0450] virtual clock clk can not be propagated.
+[INFO] Setting global connections...
+[WARNING PDN-0189] Supply pin gen_east_pads\[0\].pad_gpio_in/VSSD is not connected to any net.
+[WARNING PDN-0189] Supply pin gen_east_pads\[0\].pad_gpio_in/VDDIO_Q is not connected to any net.
+[WARNING PDN-0189] Supply pin gen_east_pads\[0\].pad_gpio_in/VDDIO is not connected to any net.
+[WARNING PDN-0189] Supply pin gen_east_pads\[0\].pad_gpio_in/VSWITCH is not connected to any net.
+[WARNING PDN-0189] Supply pin gen_east_pads\[0\].pad_gpio_in/VSSIO is not connected to any net.
+[WARNING PDN-0189] Supply pin gen_east_pads\[0\].pad_gpio_in/VDDA is not connected to any net.
+[WARNING PDN-0189] Supply pin gen_east_pads\[0\].pad_gpio_in/VCCD is not connected to any net.
+[WARNING PDN-0189] Supply pin gen_east_pads\[0\].pad_gpio_in/VCCHIB is not connected to any net.
+[WARNING PDN-0189] Supply pin gen_east_pads\[0\].pad_gpio_in/VSSA is not connected to any net.
+[WARNING PDN-0189] Supply pin gen_east_pads\[0\].pad_gpio_in/VSSIO_Q is not connected to any net.
+[WARNING PDN-0189] Supply pin gen_east_pads\[1\].pad_gpio_in/VSSD is not connected to any net.
+[WARNING PDN-0189] Supply pin gen_east_pads\[1\].pad_gpio_in/VDDIO_Q is not connected to any net.
+[WARNING PDN-0189] Supply pin gen_east_pads\[1\].pad_gpio_in/VDDIO is not connected to any net.
+[WARNING PDN-0189] Supply pin gen_east_pads\[1\].pad_gpio_in/VSWITCH is not connected to any net.
+[WARNING PDN-0189] Supply pin gen_east_pads\[1\].pad_gpio_in/VSSIO is not connected to any net.
+[WARNING PDN-0189] Supply pin gen_east_pads\[1\].pad_gpio_in/VDDA is not connected to any net.
+[WARNING PDN-0189] Supply pin gen_east_pads\[1\].pad_gpio_in/VCCD is not connected to any net.
+[WARNING PDN-0189] Supply pin gen_east_pads\[1\].pad_gpio_in/VCCHIB is not connected to any net.
+[WARNING PDN-0189] Supply pin gen_east_pads\[1\].pad_gpio_in/VSSA is not connected to any net.
+[WARNING PDN-0189] Supply pin gen_east_pads\[1\].pad_gpio_in/VSSIO_Q is not connected to any net.
+[WARNING PDN-0189] Supply pin gen_east_pads\[2\].pad_gpio_in/VSSD is not connected to any net.
+[WARNING PDN-0189] Supply pin gen_east_pads\[2\].pad_gpio_in/VDDIO_Q is not connected to any net.
+[WARNING PDN-0189] Supply pin gen_east_pads\[2\].pad_gpio_in/VDDIO is not connected to any net.
+[WARNING PDN-0189] Supply pin gen_east_pads\[2\].pad_gpio_in/VSWITCH is not connected to any net.
+[WARNING PDN-0189] Supply pin gen_east_pads\[2\].pad_gpio_in/VSSIO is not connected to any net.
+[WARNING PDN-0189] Supply pin gen_east_pads\[2\].pad_gpio_in/VDDA is not connected to any net.
+[WARNING PDN-0189] Supply pin gen_east_pads\[2\].pad_gpio_in/VCCD is not connected to any net.
+[WARNING PDN-0189] Supply pin gen_east_pads\[2\].pad_gpio_in/VCCHIB is not connected to any net.
+[WARNING PDN-0189] Supply pin gen_east_pads\[2\].pad_gpio_in/VSSA is not connected to any net.
+[WARNING PDN-0189] Supply pin gen_east_pads\[2\].pad_gpio_in/VSSIO_Q is not connected to any net.
+[WARNING PDN-0189] Supply pin gen_east_pads\[3\].pad_gpio_in/VSSD is not connected to any net.
+[WARNING PDN-0189] Supply pin gen_east_pads\[3\].pad_gpio_in/VDDIO_Q is not connected to any net.
+[WARNING PDN-0189] Supply pin gen_east_pads\[3\].pad_gpio_in/VDDIO is not connected to any net.
+[WARNING PDN-0189] Supply pin gen_east_pads\[3\].pad_gpio_in/VSWITCH is not connected to any net.
+[WARNING PDN-0189] Supply pin gen_east_pads\[3\].pad_gpio_in/VSSIO is not connected to any net.
+[WARNING PDN-0189] Supply pin gen_east_pads\[3\].pad_gpio_in/VDDA is not connected to any net.
+[WARNING PDN-0189] Supply pin gen_east_pads\[3\].pad_gpio_in/VCCD is not connected to any net.
+[WARNING PDN-0189] Supply pin gen_east_pads\[3\].pad_gpio_in/VCCHIB is not connected to any net.
+[WARNING PDN-0189] Supply pin gen_east_pads\[3\].pad_gpio_in/VSSA is not connected to any net.
+[WARNING PDN-0189] Supply pin gen_east_pads\[3\].pad_gpio_in/VSSIO_Q is not connected to any net.
+[WARNING PDN-0189] Supply pin gen_east_pads\[4\].pad_gpio_in/VSSD is not connected to any net.
+[WARNING PDN-0189] Supply pin gen_east_pads\[4\].pad_gpio_in/VDDIO_Q is not connected to any net.
+[WARNING PDN-0189] Supply pin gen_east_pads\[4\].pad_gpio_in/VDDIO is not connected to any net.
+[WARNING PDN-0189] Supply pin gen_east_pads\[4\].pad_gpio_in/VSWITCH is not connected to any net.
+[WARNING PDN-0189] Supply pin gen_east_pads\[4\].pad_gpio_in/VSSIO is not connected to any net.
+[WARNING PDN-0189] Supply pin gen_east_pads\[4\].pad_gpio_in/VDDA is not connected to any net.
+[WARNING PDN-0189] Supply pin gen_east_pads\[4\].pad_gpio_in/VCCD is not connected to any net.
+[WARNING PDN-0189] Supply pin gen_east_pads\[4\].pad_gpio_in/VCCHIB is not connected to any net.
+[WARNING PDN-0189] Supply pin gen_east_pads\[4\].pad_gpio_in/VSSA is not connected to any net.
+[WARNING PDN-0189] Supply pin gen_east_pads\[4\].pad_gpio_in/VSSIO_Q is not connected to any net.
+[WARNING PDN-0189] Supply pin gen_east_pads\[5\].pad_gpio_in/VSSD is not connected to any net.
+[WARNING PDN-0189] Supply pin gen_east_pads\[5\].pad_gpio_in/VDDIO_Q is not connected to any net.
+[WARNING PDN-0189] Supply pin gen_east_pads\[5\].pad_gpio_in/VDDIO is not connected to any net.
+[WARNING PDN-0189] Supply pin gen_east_pads\[5\].pad_gpio_in/VSWITCH is not connected to any net.
+[WARNING PDN-0189] Supply pin gen_east_pads\[5\].pad_gpio_in/VSSIO is not connected to any net.
+[WARNING PDN-0189] Supply pin gen_east_pads\[5\].pad_gpio_in/VDDA is not connected to any net.
+[WARNING PDN-0189] Supply pin gen_east_pads\[5\].pad_gpio_in/VCCD is not connected to any net.
+[WARNING PDN-0189] Supply pin gen_east_pads\[5\].pad_gpio_in/VCCHIB is not connected to any net.
+[WARNING PDN-0189] Supply pin gen_east_pads\[5\].pad_gpio_in/VSSA is not connected to any net.
+[WARNING PDN-0189] Supply pin gen_east_pads\[5\].pad_gpio_in/VSSIO_Q is not connected to any net.
+[WARNING PDN-0189] Supply pin gen_east_pads\[6\].pad_gpio_in/VSSD is not connected to any net.
+[WARNING PDN-0189] Supply pin gen_east_pads\[6\].pad_gpio_in/VDDIO_Q is not connected to any net.
+[WARNING PDN-0189] Supply pin gen_east_pads\[6\].pad_gpio_in/VDDIO is not connected to any net.
+[WARNING PDN-0189] Supply pin gen_east_pads\[6\].pad_gpio_in/VSWITCH is not connected to any net.
+[WARNING PDN-0189] Supply pin gen_east_pads\[6\].pad_gpio_in/VSSIO is not connected to any net.
+[WARNING PDN-0189] Supply pin gen_east_pads\[6\].pad_gpio_in/VDDA is not connected to any net.
+[WARNING PDN-0189] Supply pin gen_east_pads\[6\].pad_gpio_in/VCCD is not connected to any net.
+[WARNING PDN-0189] Supply pin gen_east_pads\[6\].pad_gpio_in/VCCHIB is not connected to any net.
+[WARNING PDN-0189] Supply pin gen_east_pads\[6\].pad_gpio_in/VSSA is not connected to any net.
+[WARNING PDN-0189] Supply pin gen_east_pads\[6\].pad_gpio_in/VSSIO_Q is not connected to any net.
+[WARNING PDN-0189] Supply pin gen_east_pads\[7\].pad_gpio_in/VSSD is not connected to any net.
+[WARNING PDN-0189] Supply pin gen_east_pads\[7\].pad_gpio_in/VDDIO_Q is not connected to any net.
+[WARNING PDN-0189] Supply pin gen_east_pads\[7\].pad_gpio_in/VDDIO is not connected to any net.
+[WARNING PDN-0189] Supply pin gen_east_pads\[7\].pad_gpio_in/VSWITCH is not connected to any net.
+[WARNING PDN-0189] Supply pin gen_east_pads\[7\].pad_gpio_in/VSSIO is not connected to any net.
+[WARNING PDN-0189] Supply pin gen_east_pads\[7\].pad_gpio_in/VDDA is not connected to any net.
+[WARNING PDN-0189] Supply pin gen_east_pads\[7\].pad_gpio_in/VCCD is not connected to any net.
+[WARNING PDN-0189] Supply pin gen_east_pads\[7\].pad_gpio_in/VCCHIB is not connected to any net.
+[WARNING PDN-0189] Supply pin gen_east_pads\[7\].pad_gpio_in/VSSA is not connected to any net.
+[WARNING PDN-0189] Supply pin gen_east_pads\[7\].pad_gpio_in/VSSIO_Q is not connected to any net.
+[WARNING PDN-0189] Supply pin gen_south_pads\[0\].pad_gpio_out/VSSD is not connected to any net.
+[WARNING PDN-0189] Supply pin gen_south_pads\[0\].pad_gpio_out/VDDIO_Q is not connected to any net.
+[WARNING PDN-0189] Supply pin gen_south_pads\[0\].pad_gpio_out/VDDIO is not connected to any net.
+[WARNING PDN-0189] Supply pin gen_south_pads\[0\].pad_gpio_out/VSWITCH is not connected to any net.
+[WARNING PDN-0189] Supply pin gen_south_pads\[0\].pad_gpio_out/VSSIO is not connected to any net.
+[WARNING PDN-0189] Supply pin gen_south_pads\[0\].pad_gpio_out/VDDA is not connected to any net.
+[WARNING PDN-0189] Supply pin gen_south_pads\[0\].pad_gpio_out/VCCD is not connected to any net.
+[WARNING PDN-0189] Supply pin gen_south_pads\[0\].pad_gpio_out/VCCHIB is not connected to any net.
+[WARNING PDN-0189] Supply pin gen_south_pads\[0\].pad_gpio_out/VSSA is not connected to any net.
+[WARNING PDN-0189] Supply pin gen_south_pads\[0\].pad_gpio_out/VSSIO_Q is not connected to any net.
+[WARNING PDN-0189] Supply pin gen_south_pads\[1\].pad_gpio_out/VSSD is not connected to any net.
+[WARNING PDN-0189] Supply pin gen_south_pads\[1\].pad_gpio_out/VDDIO_Q is not connected to any net.
+[WARNING PDN-0189] Supply pin gen_south_pads\[1\].pad_gpio_out/VDDIO is not connected to any net.
+[WARNING PDN-0189] Supply pin gen_south_pads\[1\].pad_gpio_out/VSWITCH is not connected to any net.
+[WARNING PDN-0189] Supply pin gen_south_pads\[1\].pad_gpio_out/VSSIO is not connected to any net.
+[WARNING PDN-0189] Supply pin gen_south_pads\[1\].pad_gpio_out/VDDA is not connected to any net.
+[WARNING PDN-0189] Supply pin gen_south_pads\[1\].pad_gpio_out/VCCD is not connected to any net.
+[WARNING PDN-0189] Supply pin gen_south_pads\[1\].pad_gpio_out/VCCHIB is not connected to any net.
+[WARNING PDN-0189] Supply pin gen_south_pads\[1\].pad_gpio_out/VSSA is not connected to any net.
+[WARNING PDN-0189] Supply pin gen_south_pads\[1\].pad_gpio_out/VSSIO_Q is not connected to any net.
+[WARNING PDN-0189] Supply pin gen_south_pads\[2\].pad_gpio_out/VSSD is not connected to any net.
+[WARNING PDN-0189] Supply pin gen_south_pads\[2\].pad_gpio_out/VDDIO_Q is not connected to any net.
+[WARNING PDN-0189] Supply pin gen_south_pads\[2\].pad_gpio_out/VDDIO is not connected to any net.
+[WARNING PDN-0189] Supply pin gen_south_pads\[2\].pad_gpio_out/VSWITCH is not connected to any net.
+[WARNING PDN-0189] Supply pin gen_south_pads\[2\].pad_gpio_out/VSSIO is not connected to any net.
+[WARNING PDN-0189] Supply pin gen_south_pads\[2\].pad_gpio_out/VDDA is not connected to any net.
+[WARNING PDN-0189] Supply pin gen_south_pads\[2\].pad_gpio_out/VCCD is not connected to any net.
+[WARNING PDN-0189] Supply pin gen_south_pads\[2\].pad_gpio_out/VCCHIB is not connected to any net.
+[WARNING PDN-0189] Supply pin gen_south_pads\[2\].pad_gpio_out/VSSA is not connected to any net.
+[WARNING PDN-0189] Supply pin gen_south_pads\[2\].pad_gpio_out/VSSIO_Q is not connected to any net.
+[WARNING PDN-0189] Supply pin gen_south_pads\[3\].pad_gpio_out/VSSD is not connected to any net.
+[WARNING PDN-0189] Supply pin gen_south_pads\[3\].pad_gpio_out/VDDIO_Q is not connected to any net.
+[WARNING PDN-0189] Supply pin gen_south_pads\[3\].pad_gpio_out/VDDIO is not connected to any net.
+[WARNING PDN-0189] Supply pin gen_south_pads\[3\].pad_gpio_out/VSWITCH is not connected to any net.
+[WARNING PDN-0189] Supply pin gen_south_pads\[3\].pad_gpio_out/VSSIO is not connected to any net.
+[WARNING PDN-0189] Supply pin gen_south_pads\[3\].pad_gpio_out/VDDA is not connected to any net.
+[WARNING PDN-0189] Supply pin gen_south_pads\[3\].pad_gpio_out/VCCD is not connected to any net.
+[WARNING PDN-0189] Supply pin gen_south_pads\[3\].pad_gpio_out/VCCHIB is not connected to any net.
+[WARNING PDN-0189] Supply pin gen_south_pads\[3\].pad_gpio_out/VSSA is not connected to any net.
+[WARNING PDN-0189] Supply pin gen_south_pads\[3\].pad_gpio_out/VSSIO_Q is not connected to any net.
+[WARNING PDN-0189] Supply pin gen_south_pads\[4\].pad_gpio_out/VSSD is not connected to any net.
+[WARNING PDN-0189] Supply pin gen_south_pads\[4\].pad_gpio_out/VDDIO_Q is not connected to any net.
+[WARNING PDN-0189] Supply pin gen_south_pads\[4\].pad_gpio_out/VDDIO is not connected to any net.
+[WARNING PDN-0189] Supply pin gen_south_pads\[4\].pad_gpio_out/VSWITCH is not connected to any net.
+[WARNING PDN-0189] Supply pin gen_south_pads\[4\].pad_gpio_out/VSSIO is not connected to any net.
+[WARNING PDN-0189] Supply pin gen_south_pads\[4\].pad_gpio_out/VDDA is not connected to any net.
+[WARNING PDN-0189] Supply pin gen_south_pads\[4\].pad_gpio_out/VCCD is not connected to any net.
+[WARNING PDN-0189] Supply pin gen_south_pads\[4\].pad_gpio_out/VCCHIB is not connected to any net.
+[WARNING PDN-0189] Supply pin gen_south_pads\[4\].pad_gpio_out/VSSA is not connected to any net.
+[WARNING PDN-0189] Supply pin gen_south_pads\[4\].pad_gpio_out/VSSIO_Q is not connected to any net.
+[WARNING PDN-0189] Supply pin gen_south_pads\[5\].pad_gpio_out/VSSD is not connected to any net.
+[WARNING PDN-0189] Supply pin gen_south_pads\[5\].pad_gpio_out/VDDIO_Q is not connected to any net.
+[WARNING PDN-0189] Supply pin gen_south_pads\[5\].pad_gpio_out/VDDIO is not connected to any net.
+[WARNING PDN-0189] Supply pin gen_south_pads\[5\].pad_gpio_out/VSWITCH is not connected to any net.
+[WARNING PDN-0189] Supply pin gen_south_pads\[5\].pad_gpio_out/VSSIO is not connected to any net.
+[WARNING PDN-0189] Supply pin gen_south_pads\[5\].pad_gpio_out/VDDA is not connected to any net.
+[WARNING PDN-0189] Supply pin gen_south_pads\[5\].pad_gpio_out/VCCD is not connected to any net.
+[WARNING PDN-0189] Supply pin gen_south_pads\[5\].pad_gpio_out/VCCHIB is not connected to any net.
+[WARNING PDN-0189] Supply pin gen_south_pads\[5\].pad_gpio_out/VSSA is not connected to any net.
+[WARNING PDN-0189] Supply pin gen_south_pads\[5\].pad_gpio_out/VSSIO_Q is not connected to any net.
+[WARNING PDN-0189] Supply pin gen_south_pads\[6\].pad_gpio_out/VSSD is not connected to any net.
+[WARNING PDN-0189] Supply pin gen_south_pads\[6\].pad_gpio_out/VDDIO_Q is not connected to any net.
+[WARNING PDN-0189] Supply pin gen_south_pads\[6\].pad_gpio_out/VDDIO is not connected to any net.
+[WARNING PDN-0189] Supply pin gen_south_pads\[6\].pad_gpio_out/VSWITCH is not connected to any net.
+[WARNING PDN-0189] Supply pin gen_south_pads\[6\].pad_gpio_out/VSSIO is not connected to any net.
+[WARNING PDN-0189] Supply pin gen_south_pads\[6\].pad_gpio_out/VDDA is not connected to any net.
+[WARNING PDN-0189] Supply pin gen_south_pads\[6\].pad_gpio_out/VCCD is not connected to any net.
+[WARNING PDN-0189] Supply pin gen_south_pads\[6\].pad_gpio_out/VCCHIB is not connected to any net.
+[WARNING PDN-0189] Supply pin gen_south_pads\[6\].pad_gpio_out/VSSA is not connected to any net.
+[WARNING PDN-0189] Supply pin gen_south_pads\[6\].pad_gpio_out/VSSIO_Q is not connected to any net.
+[WARNING PDN-0189] Supply pin gen_south_pads\[7\].pad_gpio_out/VSSD is not connected to any net.
+[WARNING PDN-0189] Supply pin gen_south_pads\[7\].pad_gpio_out/VDDIO_Q is not connected to any net.
+[WARNING PDN-0189] Supply pin gen_south_pads\[7\].pad_gpio_out/VDDIO is not connected to any net.
+[WARNING PDN-0189] Supply pin gen_south_pads\[7\].pad_gpio_out/VSWITCH is not connected to any net.
+[WARNING PDN-0189] Supply pin gen_south_pads\[7\].pad_gpio_out/VSSIO is not connected to any net.
+[WARNING PDN-0189] Supply pin gen_south_pads\[7\].pad_gpio_out/VDDA is not connected to any net.
+[WARNING PDN-0189] Supply pin gen_south_pads\[7\].pad_gpio_out/VCCD is not connected to any net.
+[WARNING PDN-0189] Supply pin gen_south_pads\[7\].pad_gpio_out/VCCHIB is not connected to any net.
+[WARNING PDN-0189] Supply pin gen_south_pads\[7\].pad_gpio_out/VSSA is not connected to any net.
+[WARNING PDN-0189] Supply pin gen_south_pads\[7\].pad_gpio_out/VSSIO_Q is not connected to any net.
+[WARNING PDN-0189] Supply pin gen_west_pads\[0\].pad_analog/VSSD is not connected to any net.
+[WARNING PDN-0189] Supply pin gen_west_pads\[0\].pad_analog/VDDIO_Q is not connected to any net.
+[WARNING PDN-0189] Supply pin gen_west_pads\[0\].pad_analog/VDDIO is not connected to any net.
+[WARNING PDN-0189] Supply pin gen_west_pads\[0\].pad_analog/VSWITCH is not connected to any net.
+[WARNING PDN-0189] Supply pin gen_west_pads\[0\].pad_analog/VSSIO is not connected to any net.
+[WARNING PDN-0189] Supply pin gen_west_pads\[0\].pad_analog/VDDA is not connected to any net.
+[WARNING PDN-0189] Supply pin gen_west_pads\[0\].pad_analog/VCCD is not connected to any net.
+[WARNING PDN-0189] Supply pin gen_west_pads\[0\].pad_analog/VCCHIB is not connected to any net.
+[WARNING PDN-0189] Supply pin gen_west_pads\[0\].pad_analog/VSSA is not connected to any net.
+[WARNING PDN-0189] Supply pin gen_west_pads\[0\].pad_analog/VSSIO_Q is not connected to any net.
+[WARNING PDN-0189] Supply pin gen_west_pads\[1\].pad_analog/VSSD is not connected to any net.
+[WARNING PDN-0189] Supply pin gen_west_pads\[1\].pad_analog/VDDIO_Q is not connected to any net.
+[WARNING PDN-0189] Supply pin gen_west_pads\[1\].pad_analog/VDDIO is not connected to any net.
+[WARNING PDN-0189] Supply pin gen_west_pads\[1\].pad_analog/VSWITCH is not connected to any net.
+[WARNING PDN-0189] Supply pin gen_west_pads\[1\].pad_analog/VSSIO is not connected to any net.
+[WARNING PDN-0189] Supply pin gen_west_pads\[1\].pad_analog/VDDA is not connected to any net.
+[WARNING PDN-0189] Supply pin gen_west_pads\[1\].pad_analog/VCCD is not connected to any net.
+[WARNING PDN-0189] Supply pin gen_west_pads\[1\].pad_analog/VCCHIB is not connected to any net.
+[WARNING PDN-0189] Supply pin gen_west_pads\[1\].pad_analog/VSSA is not connected to any net.
+[WARNING PDN-0189] Supply pin gen_west_pads\[1\].pad_analog/VSSIO_Q is not connected to any net.
+[WARNING PDN-0189] Supply pin gen_west_pads\[2\].pad_analog/VSSD is not connected to any net.
+[WARNING PDN-0189] Supply pin gen_west_pads\[2\].pad_analog/VDDIO_Q is not connected to any net.
+[WARNING PDN-0189] Supply pin gen_west_pads\[2\].pad_analog/VDDIO is not connected to any net.
+[WARNING PDN-0189] Supply pin gen_west_pads\[2\].pad_analog/VSWITCH is not connected to any net.
+[WARNING PDN-0189] Supply pin gen_west_pads\[2\].pad_analog/VSSIO is not connected to any net.
+[WARNING PDN-0189] Supply pin gen_west_pads\[2\].pad_analog/VDDA is not connected to any net.
+[WARNING PDN-0189] Supply pin gen_west_pads\[2\].pad_analog/VCCD is not connected to any net.
+[WARNING PDN-0189] Supply pin gen_west_pads\[2\].pad_analog/VCCHIB is not connected to any net.
+[WARNING PDN-0189] Supply pin gen_west_pads\[2\].pad_analog/VSSA is not connected to any net.
+[WARNING PDN-0189] Supply pin gen_west_pads\[2\].pad_analog/VSSIO_Q is not connected to any net.
+[WARNING PDN-0189] Supply pin gen_west_pads\[3\].pad_analog/VSSD is not connected to any net.
+[WARNING PDN-0189] Supply pin gen_west_pads\[3\].pad_analog/VDDIO_Q is not connected to any net.
+[WARNING PDN-0189] Supply pin gen_west_pads\[3\].pad_analog/VDDIO is not connected to any net.
+[WARNING PDN-0189] Supply pin gen_west_pads\[3\].pad_analog/VSWITCH is not connected to any net.
+[WARNING PDN-0189] Supply pin gen_west_pads\[3\].pad_analog/VSSIO is not connected to any net.
+[WARNING PDN-0189] Supply pin gen_west_pads\[3\].pad_analog/VDDA is not connected to any net.
+[WARNING PDN-0189] Supply pin gen_west_pads\[3\].pad_analog/VCCD is not connected to any net.
+[WARNING PDN-0189] Supply pin gen_west_pads\[3\].pad_analog/VCCHIB is not connected to any net.
+[WARNING PDN-0189] Supply pin gen_west_pads\[3\].pad_analog/VSSA is not connected to any net.
+[WARNING PDN-0189] Supply pin gen_west_pads\[3\].pad_analog/VSSIO_Q is not connected to any net.
+[WARNING PDN-0189] Supply pin gen_west_pads\[4\].pad_analog/VSSD is not connected to any net.
+[WARNING PDN-0189] Supply pin gen_west_pads\[4\].pad_analog/VDDIO_Q is not connected to any net.
+[WARNING PDN-0189] Supply pin gen_west_pads\[4\].pad_analog/VDDIO is not connected to any net.
+[WARNING PDN-0189] Supply pin gen_west_pads\[4\].pad_analog/VSWITCH is not connected to any net.
+[WARNING PDN-0189] Supply pin gen_west_pads\[4\].pad_analog/VSSIO is not connected to any net.
+[WARNING PDN-0189] Supply pin gen_west_pads\[4\].pad_analog/VDDA is not connected to any net.
+[WARNING PDN-0189] Supply pin gen_west_pads\[4\].pad_analog/VCCD is not connected to any net.
+[WARNING PDN-0189] Supply pin gen_west_pads\[4\].pad_analog/VCCHIB is not connected to any net.
+[WARNING PDN-0189] Supply pin gen_west_pads\[4\].pad_analog/VSSA is not connected to any net.
+[WARNING PDN-0189] Supply pin gen_west_pads\[4\].pad_analog/VSSIO_Q is not connected to any net.
+[WARNING PDN-0189] Supply pin gen_west_pads\[5\].pad_analog/VSSD is not connected to any net.
+[WARNING PDN-0189] Supply pin gen_west_pads\[5\].pad_analog/VDDIO_Q is not connected to any net.
+[WARNING PDN-0189] Supply pin gen_west_pads\[5\].pad_analog/VDDIO is not connected to any net.
+[WARNING PDN-0189] Supply pin gen_west_pads\[5\].pad_analog/VSWITCH is not connected to any net.
+[WARNING PDN-0189] Supply pin gen_west_pads\[5\].pad_analog/VSSIO is not connected to any net.
+[WARNING PDN-0189] Supply pin gen_west_pads\[5\].pad_analog/VDDA is not connected to any net.
+[WARNING PDN-0189] Supply pin gen_west_pads\[5\].pad_analog/VCCD is not connected to any net.
+[WARNING PDN-0189] Supply pin gen_west_pads\[5\].pad_analog/VCCHIB is not connected to any net.
+[WARNING PDN-0189] Supply pin gen_west_pads\[5\].pad_analog/VSSA is not connected to any net.
+[WARNING PDN-0189] Supply pin gen_west_pads\[5\].pad_analog/VSSIO_Q is not connected to any net.
+[WARNING PDN-0189] Supply pin gen_west_pads\[6\].pad_analog/VSSD is not connected to any net.
+[WARNING PDN-0189] Supply pin gen_west_pads\[6\].pad_analog/VDDIO_Q is not connected to any net.
+[WARNING PDN-0189] Supply pin gen_west_pads\[6\].pad_analog/VDDIO is not connected to any net.
+[WARNING PDN-0189] Supply pin gen_west_pads\[6\].pad_analog/VSWITCH is not connected to any net.
+[WARNING PDN-0189] Supply pin gen_west_pads\[6\].pad_analog/VSSIO is not connected to any net.
+[WARNING PDN-0189] Supply pin gen_west_pads\[6\].pad_analog/VDDA is not connected to any net.
+[WARNING PDN-0189] Supply pin gen_west_pads\[6\].pad_analog/VCCD is not connected to any net.
+[WARNING PDN-0189] Supply pin gen_west_pads\[6\].pad_analog/VCCHIB is not connected to any net.
+[WARNING PDN-0189] Supply pin gen_west_pads\[6\].pad_analog/VSSA is not connected to any net.
+[WARNING PDN-0189] Supply pin gen_west_pads\[6\].pad_analog/VSSIO_Q is not connected to any net.
+[WARNING PDN-0189] Supply pin gen_west_pads\[7\].pad_analog/VSSD is not connected to any net.
+[WARNING PDN-0189] Supply pin gen_west_pads\[7\].pad_analog/VDDIO_Q is not connected to any net.
+[WARNING PDN-0189] Supply pin gen_west_pads\[7\].pad_analog/VDDIO is not connected to any net.
+[WARNING PDN-0189] Supply pin gen_west_pads\[7\].pad_analog/VSWITCH is not connected to any net.
+[WARNING PDN-0189] Supply pin gen_west_pads\[7\].pad_analog/VSSIO is not connected to any net.
+[WARNING PDN-0189] Supply pin gen_west_pads\[7\].pad_analog/VDDA is not connected to any net.
+[WARNING PDN-0189] Supply pin gen_west_pads\[7\].pad_analog/VCCD is not connected to any net.
+[WARNING PDN-0189] Supply pin gen_west_pads\[7\].pad_analog/VCCHIB is not connected to any net.
+[WARNING PDN-0189] Supply pin gen_west_pads\[7\].pad_analog/VSSA is not connected to any net.
+[WARNING PDN-0189] Supply pin gen_west_pads\[7\].pad_analog/VSSIO_Q is not connected to any net.
+[WARNING PDN-0189] Supply pin pad_clk/VSSD is not connected to any net.
+[WARNING PDN-0189] Supply pin pad_clk/VDDIO_Q is not connected to any net.
+[WARNING PDN-0189] Supply pin pad_clk/VDDIO is not connected to any net.
+[WARNING PDN-0189] Supply pin pad_clk/VSWITCH is not connected to any net.
+[WARNING PDN-0189] Supply pin pad_clk/VSSIO is not connected to any net.
+[WARNING PDN-0189] Supply pin pad_clk/VDDA is not connected to any net.
+[WARNING PDN-0189] Supply pin pad_clk/VCCD is not connected to any net.
+[WARNING PDN-0189] Supply pin pad_clk/VCCHIB is not connected to any net.
+[WARNING PDN-0189] Supply pin pad_clk/VSSA is not connected to any net.
+[WARNING PDN-0189] Supply pin pad_clk/VSSIO_Q is not connected to any net.
+[WARNING PDN-0189] Supply pin pad_rst_n/VSSD is not connected to any net.
+[WARNING PDN-0189] Supply pin pad_rst_n/VDDIO_Q is not connected to any net.
+[WARNING PDN-0189] Supply pin pad_rst_n/VDDIO is not connected to any net.
+[WARNING PDN-0189] Supply pin pad_rst_n/VSWITCH is not connected to any net.
+[WARNING PDN-0189] Supply pin pad_rst_n/VSSIO is not connected to any net.
+[WARNING PDN-0189] Supply pin pad_rst_n/VDDA is not connected to any net.
+[WARNING PDN-0189] Supply pin pad_rst_n/VCCD is not connected to any net.
+[WARNING PDN-0189] Supply pin pad_rst_n/VCCHIB is not connected to any net.
+[WARNING PDN-0189] Supply pin pad_rst_n/VSSA is not connected to any net.
+[WARNING PDN-0189] Supply pin pad_rst_n/VSSIO_Q is not connected to any net.
+[WARNING PDN-0189] Supply pin pad_vccd_aux/DRN_HVC is not connected to any net.
+[WARNING PDN-0189] Supply pin pad_vccd_aux/OGC_HVC is not connected to any net.
+[WARNING PDN-0189] Supply pin pad_vccd_aux/P_CORE is not connected to any net.
+[WARNING PDN-0189] Supply pin pad_vccd_aux/SRC_BDY_HVC is not connected to any net.
+[WARNING PDN-0189] Supply pin pad_vccd_aux/VCCD is not connected to any net.
+[WARNING PDN-0189] Supply pin pad_vccd_aux/VCCHIB is not connected to any net.
+[WARNING PDN-0189] Supply pin pad_vccd_aux/VDDA is not connected to any net.
+[WARNING PDN-0189] Supply pin pad_vccd_aux/VDDIO is not connected to any net.
+[WARNING PDN-0189] Supply pin pad_vccd_aux/VDDIO_Q is not connected to any net.
+[WARNING PDN-0189] Supply pin pad_vccd_aux/VSSA is not connected to any net.
+[WARNING PDN-0189] Supply pin pad_vccd_aux/VSSD is not connected to any net.
+[WARNING PDN-0189] Supply pin pad_vccd_aux/VSSIO is not connected to any net.
+[WARNING PDN-0189] Supply pin pad_vccd_aux/VSSIO_Q is not connected to any net.
+[WARNING PDN-0189] Supply pin pad_vccd_aux/VSWITCH is not connected to any net.
+[WARNING PDN-0189] Supply pin pad_vccd_main/DRN_HVC is not connected to any net.
+[WARNING PDN-0189] Supply pin pad_vccd_main/OGC_HVC is not connected to any net.
+[WARNING PDN-0189] Supply pin pad_vccd_main/P_CORE is not connected to any net.
+[WARNING PDN-0189] Supply pin pad_vccd_main/SRC_BDY_HVC is not connected to any net.
+[WARNING PDN-0189] Supply pin pad_vccd_main/VCCD is not connected to any net.
+[WARNING PDN-0189] Supply pin pad_vccd_main/VCCHIB is not connected to any net.
+[WARNING PDN-0189] Supply pin pad_vccd_main/VDDA is not connected to any net.
+[WARNING PDN-0189] Supply pin pad_vccd_main/VDDIO is not connected to any net.
+[WARNING PDN-0189] Supply pin pad_vccd_main/VDDIO_Q is not connected to any net.
+[WARNING PDN-0189] Supply pin pad_vccd_main/VSSA is not connected to any net.
+[WARNING PDN-0189] Supply pin pad_vccd_main/VSSD is not connected to any net.
+[WARNING PDN-0189] Supply pin pad_vccd_main/VSSIO is not connected to any net.
+[WARNING PDN-0189] Supply pin pad_vccd_main/VSSIO_Q is not connected to any net.
+[WARNING PDN-0189] Supply pin pad_vccd_main/VSWITCH is not connected to any net.
+[WARNING PDN-0189] Supply pin pad_vdda_main/DRN_HVC is not connected to any net.
+[WARNING PDN-0189] Supply pin pad_vdda_main/OGC_HVC is not connected to any net.
+[WARNING PDN-0189] Supply pin pad_vdda_main/P_CORE is not connected to any net.
+[WARNING PDN-0189] Supply pin pad_vdda_main/SRC_BDY_HVC is not connected to any net.
+[WARNING PDN-0189] Supply pin pad_vdda_main/VCCD is not connected to any net.
+[WARNING PDN-0189] Supply pin pad_vdda_main/VCCHIB is not connected to any net.
+[WARNING PDN-0189] Supply pin pad_vdda_main/VDDA is not connected to any net.
+[WARNING PDN-0189] Supply pin pad_vdda_main/VDDIO is not connected to any net.
+[WARNING PDN-0189] Supply pin pad_vdda_main/VDDIO_Q is not connected to any net.
+[WARNING PDN-0189] Supply pin pad_vdda_main/VSSA is not connected to any net.
+[WARNING PDN-0189] Supply pin pad_vdda_main/VSSD is not connected to any net.
+[WARNING PDN-0189] Supply pin pad_vdda_main/VSSIO is not connected to any net.
+[WARNING PDN-0189] Supply pin pad_vdda_main/VSSIO_Q is not connected to any net.
+[WARNING PDN-0189] Supply pin pad_vdda_main/VSWITCH is not connected to any net.
+[WARNING PDN-0189] Supply pin pad_vssa_main/VSSA is not connected to any net.
+[WARNING PDN-0189] Supply pin pad_vssa_main/VDDIO is not connected to any net.
+[WARNING PDN-0189] Supply pin pad_vssa_main/VCCD is not connected to any net.
+[WARNING PDN-0189] Supply pin pad_vssa_main/VCCHIB is not connected to any net.
+[WARNING PDN-0189] Supply pin pad_vssa_main/VDDA is not connected to any net.
+[WARNING PDN-0189] Supply pin pad_vssa_main/VDDIO_Q is not connected to any net.
+[WARNING PDN-0189] Supply pin pad_vssa_main/VSSD is not connected to any net.
+[WARNING PDN-0189] Supply pin pad_vssa_main/VSSIO is not connected to any net.
+[WARNING PDN-0189] Supply pin pad_vssa_main/VSWITCH is not connected to any net.
+[WARNING PDN-0189] Supply pin pad_vssa_main/VSSIO_Q is not connected to any net.
+[WARNING PDN-0189] Supply pin pad_vssa_main/DRN_HVC is not connected to any net.
+[WARNING PDN-0189] Supply pin pad_vssa_main/SRC_BDY_HVC is not connected to any net.
+[WARNING PDN-0189] Supply pin pad_vssa_main/OGC_HVC is not connected to any net.
+[WARNING PDN-0189] Supply pin pad_vssa_main/G_CORE is not connected to any net.
+[WARNING PDN-0189] Supply pin pad_vssd_aux/VSSA is not connected to any net.
+[WARNING PDN-0189] Supply pin pad_vssd_aux/VDDIO is not connected to any net.
+[WARNING PDN-0189] Supply pin pad_vssd_aux/VCCD is not connected to any net.
+[WARNING PDN-0189] Supply pin pad_vssd_aux/VCCHIB is not connected to any net.
+[WARNING PDN-0189] Supply pin pad_vssd_aux/VDDA is not connected to any net.
+[WARNING PDN-0189] Supply pin pad_vssd_aux/VDDIO_Q is not connected to any net.
+[WARNING PDN-0189] Supply pin pad_vssd_aux/VSSD is not connected to any net.
+[WARNING PDN-0189] Supply pin pad_vssd_aux/VSSIO is not connected to any net.
+[WARNING PDN-0189] Supply pin pad_vssd_aux/VSWITCH is not connected to any net.
+[WARNING PDN-0189] Supply pin pad_vssd_aux/VSSIO_Q is not connected to any net.
+[WARNING PDN-0189] Supply pin pad_vssd_aux/DRN_HVC is not connected to any net.
+[WARNING PDN-0189] Supply pin pad_vssd_aux/SRC_BDY_HVC is not connected to any net.
+[WARNING PDN-0189] Supply pin pad_vssd_aux/OGC_HVC is not connected to any net.
+[WARNING PDN-0189] Supply pin pad_vssd_aux/G_CORE is not connected to any net.
+[WARNING PDN-0189] Supply pin pad_vssd_main/VSSA is not connected to any net.
+[WARNING PDN-0189] Supply pin pad_vssd_main/VDDIO is not connected to any net.
+[WARNING PDN-0189] Supply pin pad_vssd_main/VCCD is not connected to any net.
+[WARNING PDN-0189] Supply pin pad_vssd_main/VCCHIB is not connected to any net.
+[WARNING PDN-0189] Supply pin pad_vssd_main/VDDA is not connected to any net.
+[WARNING PDN-0189] Supply pin pad_vssd_main/VDDIO_Q is not connected to any net.
+[WARNING PDN-0189] Supply pin pad_vssd_main/VSSD is not connected to any net.
+[WARNING PDN-0189] Supply pin pad_vssd_main/VSSIO is not connected to any net.
+[WARNING PDN-0189] Supply pin pad_vssd_main/VSWITCH is not connected to any net.
+[WARNING PDN-0189] Supply pin pad_vssd_main/VSSIO_Q is not connected to any net.
+[WARNING PDN-0189] Supply pin pad_vssd_main/DRN_HVC is not connected to any net.
+[WARNING PDN-0189] Supply pin pad_vssd_main/SRC_BDY_HVC is not connected to any net.
+[WARNING PDN-0189] Supply pin pad_vssd_main/OGC_HVC is not connected to any net.
+[WARNING PDN-0189] Supply pin pad_vssd_main/G_CORE is not connected to any net.
+[INFO PDN-0001] Inserting grid: stdcell_grid
+[WARNING PDN-0178] Remaining channel (280.3400, 75.9200) - (284.7200, 92.7200) on met1 for nets: VPWR, VGND
+[WARNING PDN-0178] Remaining channel (450.2800, 179.2800) - (454.7200, 201.5200) on met1 for nets: VGND
+[WARNING PDN-0178] Remaining channel (450.3400, 75.9200) - (454.7200, 98.1600) on met1 for nets: VPWR, VGND
+[WARNING PDN-0178] Remaining channel (450.3950, 54.1600) - (454.6050, 70.4800) on met1 for nets: VGND
+[WARNING PDN-0178] Remaining channel (535.3400, 75.9200) - (539.7200, 92.7200) on met1 for nets: VPWR, VGND
+[WARNING PDN-0178] Remaining channel (620.2800, 10.6400) - (624.7200, 54.6400) on met1 for nets: VPWR, VGND
+[WARNING PDN-0178] Remaining channel (620.2800, 179.2800) - (624.7200, 201.5200) on met1 for nets: VGND
+[WARNING PDN-0178] Remaining channel (620.2800, 799.4400) - (624.7200, 832.5600) on met1 for nets: VGND
+[WARNING PDN-0178] Remaining channel (620.2800, 949.0400) - (624.7200, 987.6000) on met1 for nets: VPWR, VGND
+[WARNING PDN-0178] Remaining channel (620.3400, 75.9200) - (624.7200, 98.1600) on met1 for nets: VPWR, VGND
+[WARNING PDN-0178] Remaining channel (620.3950, 935.4400) - (624.6050, 943.6000) on met1 for nets: VGND
+[WARNING PDN-0178] Remaining channel (705.2800, 89.5200) - (709.7200, 100.8800) on met1 for nets: VPWR, VGND
+[WARNING PDN-0178] Remaining channel (705.2800, 165.6800) - (709.7200, 204.2400) on met1 for nets: VPWR, VGND
+[WARNING PDN-0178] Remaining channel (705.3950, 51.4400) - (709.6050, 65.5200) on met1 for nets: VPWR, VGND
+[WARNING PDN-0178] Remaining channel (790.2800, 10.6400) - (794.7200, 19.2800) on met1 for nets: VPWR
+[WARNING PDN-0178] Remaining channel (790.2800, 35.1200) - (794.7200, 51.9200) on met1 for nets: VPWR
+[WARNING PDN-0178] Remaining channel (790.2800, 89.5200) - (794.7200, 100.8800) on met1 for nets: VPWR
+[WARNING PDN-0178] Remaining channel (790.2800, 171.1200) - (794.7200, 204.2400) on met1 for nets: VPWR
+[WARNING PDN-0178] Remaining channel (790.3400, 73.2000) - (794.6050, 78.6400) on met1 for nets: VPWR
+[WARNING PDN-0178] Remaining channel (790.3400, 78.6400) - (794.7200, 89.5200) on met1 for nets: VPWR
+[WARNING PDN-0178] Remaining channel (790.3950, 19.2800) - (794.7200, 35.1200) on met1 for nets: VPWR
+[WARNING PDN-0178] Remaining channel (790.3950, 57.3600) - (794.6050, 73.2000) on met1 for nets: VPWR
+[WARNING PDN-0178] Remaining channel (5.2800, 450.7000) - (333.1400, 454.3000) on met4 for nets: VGND
+[WARNING PDN-0178] Remaining channel (5.2800, 535.6000) - (329.8400, 539.3000) on met4 for nets: VPWR, VGND
+[WARNING PDN-0178] Remaining channel (5.2800, 535.6000) - (333.1400, 539.3000) on met4 for nets: VPWR, VGND
+[WARNING PDN-0178] Remaining channel (5.2800, 790.7000) - (333.1400, 794.4800) on met4 for nets: VGND
+[WARNING PDN-0178] Remaining channel (789.0400, 450.7000) - (994.3000, 454.4800) on met4 for nets: VPWR, VGND
+[WARNING PDN-0178] Remaining channel (789.0400, 535.6000) - (994.3000, 539.3000) on met4 for nets: VPWR, VGND
+[ERROR PDN-0179] Unable to repair all channels.
+PDN-0179

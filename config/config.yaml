@@ -1,0 +1,42 @@
+# General Design Information
+DESIGN_NAME: "top"
+VERILOG_FILES: 
+  - "dir::../src/top.v"
+  - "dir::../src/stubs.v"
+
+# Clock Configuration
+CLOCK_PORT: null
+CLOCK_PERIOD: 10.0
+
+# ---------------------------------------------------------
+# Floorplanning & Dimensions (1mm x 1mm)
+# ---------------------------------------------------------
+FP_SIZING: "absolute"
+
+# FIX: Use a YAML List, not a string
+DIE_AREA: [0, 0, 1000, 1000]
+
+# ---------------------------------------------------------
+# Placement & Routing
+# ---------------------------------------------------------
+# FIX: Renamed variable. Use integer percentage (30 = 30%)
+PL_TARGET_DENSITY_PCT: 30
+
+# FIX: Use boolean 'false', not integer '0'
+FP_PDN_CORE_RING: false
+RT_MAX_LAYER: "met4"
+
+# ---------------------------------------------------------
+# Manual Pad Library Inclusion (Fix for USE_GPIO_PADS)
+# ---------------------------------------------------------
+# Since the tool won't auto-load these anymore, we point to the PDK variables
+# standard in OpenLane environments:
+EXTRA_LEFS: 
+  - "/Users/refikyalcin/.volare/volare/sky130/versions/0fe599b2afb6708d281543108caf8310912f54af/sky130A/libs.ref/sky130_fd_io/lef/sky130_fd_io.lef"
+  - "/Users/refikyalcin/.volare/volare/sky130/versions/0fe599b2afb6708d281543108caf8310912f54af/sky130A/libs.ref/sky130_fd_io/lef/sky130_ef_io.lef"
+
+EXTRA_VERILOG_MODELS:
+  - "/Users/refikyalcin/.volare/volare/sky130/versions/0fe599b2afb6708d281543108caf8310912f54af/sky130A/libs.ref/sky130_fd_io/verilog/sky130_fd_io.v"
+
+# NOTE: FP_PADFRAME_CFG and FP_PADFRAME_MODE are removed.
+# You must remove them to stop the crash.

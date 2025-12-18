@@ -1,0 +1,1 @@
+openroad -exit -no_splash -metrics /Users/refikyalcin/vlsi/digital/io-ring-demo/config/runs/run_1/79-openroad-globalplacement/or_metrics_out.json /nix/store/7x1qis8my0i44w1lx1yq2wiwh6yc774i-python3-3.11.9-env/lib/python3.11/site-packages/librelane/scripts/openroad/gpl.tcl

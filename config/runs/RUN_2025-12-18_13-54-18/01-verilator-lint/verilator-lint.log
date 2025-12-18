@@ -1,0 +1,27 @@
+%Error-UNSUPPORTED: /Users/refikyalcin/vlsi/digital/io-ring-demo/config/runs/RUN_2025-12-18_13-54-18/tmp/f4658ca5b09047ab941c300929e1e012.bb.v:161:10: Unsupported: Verilog 1995 gate primitive: tranif1
+  161 | tranif1  x_aa_sl ( amuxbus_a_l,   switch_aa_mid, switch_aa_sl_final);
+      |          ^~~~~~~
+                    ... For error description see https://verilator.org/warn/UNSUPPORTED?v=5.018
+%Error-UNSUPPORTED: /Users/refikyalcin/vlsi/digital/io-ring-demo/config/runs/RUN_2025-12-18_13-54-18/tmp/f4658ca5b09047ab941c300929e1e012.bb.v:163:10: Unsupported: Verilog 1995 gate primitive: tranif1
+  163 | tranif1  x_aa_sr ( amuxbus_a_r,   switch_aa_mid, switch_aa_sr_final);
+      |          ^~~~~~~
+%Error-UNSUPPORTED: /Users/refikyalcin/vlsi/digital/io-ring-demo/config/runs/RUN_2025-12-18_13-54-18/tmp/f4658ca5b09047ab941c300929e1e012.bb.v:171:10: Unsupported: Verilog 1995 gate primitive: tranif1
+  171 | tranif1  x_bb_sl ( amuxbus_b_l,   switch_bb_mid, switch_bb_sl_final);
+      |          ^~~~~~~
+%Error-UNSUPPORTED: /Users/refikyalcin/vlsi/digital/io-ring-demo/config/runs/RUN_2025-12-18_13-54-18/tmp/f4658ca5b09047ab941c300929e1e012.bb.v:173:10: Unsupported: Verilog 1995 gate primitive: tranif1
+  173 | tranif1  x_bb_sr ( amuxbus_b_r,   switch_bb_mid, switch_bb_sr_final);
+      |          ^~~~~~~
+%Error-UNSUPPORTED: /Users/refikyalcin/vlsi/digital/io-ring-demo/config/runs/RUN_2025-12-18_13-54-18/tmp/f4658ca5b09047ab941c300929e1e012.bb.v:515:13: Unsupported: Verilog 1995 gate primitive: tranif1
+  515 |     tranif1 x_pad (pad, pad_core, pad_sw); 
+      |             ^~~~~
+%Error-UNSUPPORTED: /Users/refikyalcin/vlsi/digital/io-ring-demo/config/runs/RUN_2025-12-18_13-54-18/tmp/f4658ca5b09047ab941c300929e1e012.bb.v:1510:8: Unsupported: Strength specifier on this gate type
+ 1510 | bufif1 (pull1, strong0) #slow_delay dm2 (PAD, out_final, x_on_pad===1 ? 1'bx : (pad_tristate===0 && dm_final===3'b010));
+      |        ^
+%Error-UNSUPPORTED: /Users/refikyalcin/vlsi/digital/io-ring-demo/config/runs/RUN_2025-12-18_13-54-18/tmp/f4658ca5b09047ab941c300929e1e012.bb.v:1511:8: Unsupported: Strength specifier on this gate type
+ 1511 | bufif1 (strong1, pull0) #slow_delay dm3 (PAD, out_final, x_on_pad===1 ? 1'bx : (pad_tristate===0 && dm_final===3'b011));
+      |        ^
+%Error-UNSUPPORTED: /Users/refikyalcin/vlsi/digital/io-ring-demo/config/runs/RUN_2025-12-18_13-54-18/tmp/f4658ca5b09047ab941c300929e1e012.bb.v:1512:9: Unsupported: highz strength
+ 1512 | bufif1 (highz1, strong0) #slow_delay dm4 (PAD, out_final, x_on_pad===1 ? 1'bx : (pad_tristate===0 && dm_final===3'b100));
+      |         ^~~~~~
+%Error: Verilator internal fault, sorry. Suggest trying --debug --gdbbt
+%Error: Command Failed /nix/store/3gkxkamjyzbca33qyfx6lxsi8zfryig4-verilator/bin/verilator_bin --lint-only --Wall --Wno-DECLFILENAME --Wno-EOFNEWLINE --top-module top /Users/refikyalcin/vlsi/digital/io-ring-demo/config/runs/RUN_2025-12-18_13-54-18/01-verilator-lint/_deps.vlt /Users/refikyalcin/vlsi/digital/io-ring-demo/config/runs/RUN_2025-12-18_13-54-18/tmp/88b614f17c564c1fa82c40ae9d27253f.bb.v /Users/refikyalcin/vlsi/digital/io-ring-demo/config/runs/RUN_2025-12-18_13-54-18/tmp/f4658ca5b09047ab941c300929e1e012.bb.v /Users/refikyalcin/vlsi/digital/io-ring-demo/src/top.v --Wno-fatal --relative-includes --Werror-LATCH +define+PDK_sky130A +define+SCL_sky130_fd_sc_hd +define+__librelane__ +define+__pnr__ +define+USE_POWER_PINS

@@ -1,0 +1,4 @@
+%Error: /Users/refikyalcin/vlsi/digital/io-ring-demo/src/top.v:7:38: Can't resolve module reference: 'sky130_fd_io__top_power_hvc_wpad'
+    7 |     sky130_fd_io__top_power_hvc_wpad pad_vccd_main (.vccd_h(vccd1), .vccd_l(vccd1), .vssd_h(vssd1), .vssd_l(vssd1), .vdda_h(vdda1), .vdda_l(vdda1), .vssa_h(vssa1), .vssa_l(vssa1));
+      |                                      ^~~~~~~~~~~~~
+%Error: Exiting due to 1 error(s)
