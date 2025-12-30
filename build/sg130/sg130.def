@@ -1,0 +1,101 @@
+DESIGN my_chip ;
+UNITS DISTANCE MICRONS 100 ; 
+COMPONENTS 48 ;
+  - corner_nw sg13g2_Corner
+    + PLACED ( 0 82000 ) E ;
+  - corner_ne sg13g2_Corner
+    + PLACED ( 82000 82000 ) S ;
+  - corner_sw sg13g2_Corner
+    + PLACED ( 0 0 ) N ;
+  - corner_se sg13g2_Corner
+    + PLACED ( 82000 0 ) W ;
+  - FILLER_5 sg13g2_Filler10000
+    + PLACED ( 18000 82000 )  S ;
+  - FILLER_6 sg13g2_Filler10000
+    + PLACED ( 23000 82000 )  S ;
+  - vss_1 sg13g2_IOPadIOVss
+    + PLACED ( 28000 82000 )  S ;
+  - FILLER_8 sg13g2_Filler10000
+    + PLACED ( 36000 82000 )  S ;
+  - FILLER_9 sg13g2_Filler10000
+    + PLACED ( 41000 82000 )  S ;
+  - gpio_1 sg13g2_IOPadInOut4mA
+    + PLACED ( 46000 82000 )  S ;
+  - FILLER_11 sg13g2_Filler10000
+    + PLACED ( 54000 82000 )  S ;
+  - FILLER_12 sg13g2_Filler10000
+    + PLACED ( 59000 82000 )  S ;
+  - vdd_1 sg13g2_IOPadIOVdd
+    + PLACED ( 64000 82000 )  S ;
+  - FILLER_14 sg13g2_Filler10000
+    + PLACED ( 72000 82000 )  S ;
+  - FILLER_15 sg13g2_Filler10000
+    + PLACED ( 77000 82000 )  S ;
+  - FILLER_16 sg13g2_Filler10000
+    + PLACED ( 18000 0 )  N ;
+  - FILLER_17 sg13g2_Filler10000
+    + PLACED ( 23000 0 )  N ;
+  - vss_0 sg13g2_IOPadIOVss
+    + PLACED ( 28000 0 )  N ;
+  - FILLER_19 sg13g2_Filler10000
+    + PLACED ( 36000 0 )  N ;
+  - FILLER_20 sg13g2_Filler10000
+    + PLACED ( 41000 0 )  N ;
+  - gpio_0 sg13g2_IOPadInOut4mA
+    + PLACED ( 46000 0 )  N ;
+  - FILLER_22 sg13g2_Filler10000
+    + PLACED ( 54000 0 )  N ;
+  - FILLER_23 sg13g2_Filler10000
+    + PLACED ( 59000 0 )  N ;
+  - vdd_0 sg13g2_IOPadIOVdd
+    + PLACED ( 64000 0 )  N ;
+  - FILLER_25 sg13g2_Filler10000
+    + PLACED ( 72000 0 )  N ;
+  - FILLER_26 sg13g2_Filler10000
+    + PLACED ( 77000 0 )  N ;
+  - FILLER_27 sg13g2_Filler10000
+    + PLACED ( 0 18000 )  E ;
+  - FILLER_28 sg13g2_Filler10000
+    + PLACED ( 0 23000 )  E ;
+  - vss_2 sg13g2_IOPadIOVss
+    + PLACED ( 0 28000 )  E ;
+  - FILLER_30 sg13g2_Filler10000
+    + PLACED ( 0 36000 )  E ;
+  - FILLER_31 sg13g2_Filler10000
+    + PLACED ( 0 41000 )  E ;
+  - gpio_2 sg13g2_IOPadInOut4mA
+    + PLACED ( 0 46000 )  E ;
+  - FILLER_33 sg13g2_Filler10000
+    + PLACED ( 0 54000 )  E ;
+  - FILLER_34 sg13g2_Filler10000
+    + PLACED ( 0 59000 )  E ;
+  - vdd_2 sg13g2_IOPadIOVdd
+    + PLACED ( 0 64000 )  E ;
+  - FILLER_36 sg13g2_Filler10000
+    + PLACED ( 0 72000 )  E ;
+  - FILLER_37 sg13g2_Filler10000
+    + PLACED ( 0 77000 )  E ;
+  - FILLER_38 sg13g2_Filler10000
+    + PLACED ( 82000 18000 )  W ;
+  - FILLER_39 sg13g2_Filler10000
+    + PLACED ( 82000 23000 )  W ;
+  - vss_3 sg13g2_IOPadIOVss
+    + PLACED ( 82000 28000 )  W ;
+  - FILLER_41 sg13g2_Filler10000
+    + PLACED ( 82000 36000 )  W ;
+  - FILLER_42 sg13g2_Filler10000
+    + PLACED ( 82000 41000 )  W ;
+  - gpio_3 sg13g2_IOPadInOut4mA
+    + PLACED ( 82000 46000 )  W ;
+  - FILLER_44 sg13g2_Filler10000
+    + PLACED ( 82000 54000 )  W ;
+  - FILLER_45 sg13g2_Filler10000
+    + PLACED ( 82000 59000 )  W ;
+  - vdd_3 sg13g2_IOPadIOVdd
+    + PLACED ( 82000 64000 )  W ;
+  - FILLER_47 sg13g2_Filler10000
+    + PLACED ( 82000 72000 )  W ;
+  - FILLER_48 sg13g2_Filler10000
+    + PLACED ( 82000 77000 )  W ;
+END COMPONENTS
+END DESIGN

@@ -1,0 +1,134 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1000">
+<polyline points="0 0 180 -1.25308e-05 180 180 1.25308e-05 180 0 0" style="fill:#FAAD35;stroke:#F25844;stroke-width:0.5" />
+<polyline points="2.50615e-06 36 36 -2.50615e-06" style="stroke:#F25844;stroke-width:0.75" />
+<circle cx="0" cy="0" r="5" style="fill:#000000" />
+<text text-anchor="middle" x="90" y="90" class="small">sg13g2_Corner</text>
+<text text-anchor="middle" x="90" y="110" class="small">corner_nw</text>
+<polyline points="1000 0 1000 180 820 180 820 8.35384e-06 1000 0" style="fill:#FAAD35;stroke:#F25844;stroke-width:0.5" />
+<polyline points="964 1.67077e-06 1000 36" style="stroke:#F25844;stroke-width:0.75" />
+<circle cx="1000" cy="0" r="5" style="fill:#000000" />
+<text text-anchor="middle" x="910" y="90" class="small">sg13g2_Corner</text>
+<text text-anchor="middle" x="910" y="110" class="small">corner_ne</text>
+<polyline points="0 1000 0 820 180 820 180 1000 0 1000" style="fill:#FAAD35;stroke:#F25844;stroke-width:0.5" />
+<polyline points="36 1000 0 964" style="stroke:#F25844;stroke-width:0.75" />
+<circle cx="0" cy="1000" r="5" style="fill:#000000" />
+<text text-anchor="middle" x="90" y="910" class="small">sg13g2_Corner</text>
+<text text-anchor="middle" x="90" y="930" class="small">corner_sw</text>
+<polyline points="1000 1000 820 1000 820 820 1000 820 1000 1000" style="fill:#FAAD35;stroke:#F25844;stroke-width:0.5" />
+<polyline points="1000 964 964 1000" style="stroke:#F25844;stroke-width:0.75" />
+<circle cx="1000" cy="1000" r="5" style="fill:#000000" />
+<text text-anchor="middle" x="910" y="910" class="small">sg13g2_Corner</text>
+<text text-anchor="middle" x="910" y="930" class="small">corner_se</text>
+<polyline points="230 0 230 180 180 180 180 2.32051e-06 230 0" style="fill:#BFE1F3;stroke:#179AA9;stroke-width:0.25" />
+<polyline points="220 4.64102e-07 230 10" style="stroke:#F25844;stroke-width:0.75" />
+<polyline points="280 0 280 180 230 180 230 2.32051e-06 280 0" style="fill:#BFE1F3;stroke:#179AA9;stroke-width:0.25" />
+<polyline points="270 4.64102e-07 280 10" style="stroke:#F25844;stroke-width:0.75" />
+<polyline points="360 0 360 180 280 180 280 3.71282e-06 360 0" style="fill:#FAAD35;stroke:#F25844;stroke-width:0.5" />
+<polyline points="344 7.42563e-07 360 16" style="stroke:#F25844;stroke-width:0.75" />
+<text text-anchor="middle" x="320" y="90" class="small">sg13g2_IOPadIOVss</text>
+<text text-anchor="middle" x="320" y="110" class="small">vss_1</text>
+<polyline points="410 0 410 180 360 180 360 2.32051e-06 410 0" style="fill:#BFE1F3;stroke:#179AA9;stroke-width:0.25" />
+<polyline points="400 4.64102e-07 410 10" style="stroke:#F25844;stroke-width:0.75" />
+<polyline points="460 0 460 180 410 180 410 2.32051e-06 460 0" style="fill:#BFE1F3;stroke:#179AA9;stroke-width:0.25" />
+<polyline points="450 4.64102e-07 460 10" style="stroke:#F25844;stroke-width:0.75" />
+<polyline points="540 0 540 180 460 180 460 3.71282e-06 540 0" style="fill:#FAAD35;stroke:#F25844;stroke-width:0.5" />
+<polyline points="524 7.42563e-07 540 16" style="stroke:#F25844;stroke-width:0.75" />
+<text text-anchor="middle" x="500" y="90" class="small">sg13g2_IOPadInOut4mA</text>
+<text text-anchor="middle" x="500" y="110" class="small">gpio_1</text>
+<polyline points="590 0 590 180 540 180 540 2.32051e-06 590 0" style="fill:#BFE1F3;stroke:#179AA9;stroke-width:0.25" />
+<polyline points="580 4.64102e-07 590 10" style="stroke:#F25844;stroke-width:0.75" />
+<polyline points="640 0 640 180 590 180 590 2.32051e-06 640 0" style="fill:#BFE1F3;stroke:#179AA9;stroke-width:0.25" />
+<polyline points="630 4.64102e-07 640 10" style="stroke:#F25844;stroke-width:0.75" />
+<polyline points="720 0 720 180 640 180 640 3.71282e-06 720 0" style="fill:#FAAD35;stroke:#F25844;stroke-width:0.5" />
+<polyline points="704 7.42563e-07 720 16" style="stroke:#F25844;stroke-width:0.75" />
+<text text-anchor="middle" x="680" y="90" class="small">sg13g2_IOPadIOVdd</text>
+<text text-anchor="middle" x="680" y="110" class="small">vdd_1</text>
+<polyline points="770 0 770 180 720 180 720 2.32051e-06 770 0" style="fill:#BFE1F3;stroke:#179AA9;stroke-width:0.25" />
+<polyline points="760 4.64102e-07 770 10" style="stroke:#F25844;stroke-width:0.75" />
+<polyline points="820 0 820 180 770 180 770 2.32051e-06 820 0" style="fill:#BFE1F3;stroke:#179AA9;stroke-width:0.25" />
+<polyline points="810 4.64102e-07 820 10" style="stroke:#F25844;stroke-width:0.75" />
+<polyline points="180 1000 180 820 230 820 230 1000 180 1000" style="fill:#BFE1F3;stroke:#179AA9;stroke-width:0.25" />
+<polyline points="190 1000 180 990" style="stroke:#F25844;stroke-width:0.75" />
+<polyline points="230 1000 230 820 280 820 280 1000 230 1000" style="fill:#BFE1F3;stroke:#179AA9;stroke-width:0.25" />
+<polyline points="240 1000 230 990" style="stroke:#F25844;stroke-width:0.75" />
+<polyline points="280 1000 280 820 360 820 360 1000 280 1000" style="fill:#FAAD35;stroke:#F25844;stroke-width:0.5" />
+<polyline points="296 1000 280 984" style="stroke:#F25844;stroke-width:0.75" />
+<text text-anchor="middle" x="320" y="910" class="small">sg13g2_IOPadIOVss</text>
+<text text-anchor="middle" x="320" y="930" class="small">vss_0</text>
+<polyline points="360 1000 360 820 410 820 410 1000 360 1000" style="fill:#BFE1F3;stroke:#179AA9;stroke-width:0.25" />
+<polyline points="370 1000 360 990" style="stroke:#F25844;stroke-width:0.75" />
+<polyline points="410 1000 410 820 460 820 460 1000 410 1000" style="fill:#BFE1F3;stroke:#179AA9;stroke-width:0.25" />
+<polyline points="420 1000 410 990" style="stroke:#F25844;stroke-width:0.75" />
+<polyline points="460 1000 460 820 540 820 540 1000 460 1000" style="fill:#FAAD35;stroke:#F25844;stroke-width:0.5" />
+<polyline points="476 1000 460 984" style="stroke:#F25844;stroke-width:0.75" />
+<text text-anchor="middle" x="500" y="910" class="small">sg13g2_IOPadInOut4mA</text>
+<text text-anchor="middle" x="500" y="930" class="small">gpio_0</text>
+<polyline points="540 1000 540 820 590 820 590 1000 540 1000" style="fill:#BFE1F3;stroke:#179AA9;stroke-width:0.25" />
+<polyline points="550 1000 540 990" style="stroke:#F25844;stroke-width:0.75" />
+<polyline points="590 1000 590 820 640 820 640 1000 590 1000" style="fill:#BFE1F3;stroke:#179AA9;stroke-width:0.25" />
+<polyline points="600 1000 590 990" style="stroke:#F25844;stroke-width:0.75" />
+<polyline points="640 1000 640 820 720 820 720 1000 640 1000" style="fill:#FAAD35;stroke:#F25844;stroke-width:0.5" />
+<polyline points="656 1000 640 984" style="stroke:#F25844;stroke-width:0.75" />
+<text text-anchor="middle" x="680" y="910" class="small">sg13g2_IOPadIOVdd</text>
+<text text-anchor="middle" x="680" y="930" class="small">vdd_0</text>
+<polyline points="720 1000 720 820 770 820 770 1000 720 1000" style="fill:#BFE1F3;stroke:#179AA9;stroke-width:0.25" />
+<polyline points="730 1000 720 990" style="stroke:#F25844;stroke-width:0.75" />
+<polyline points="770 1000 770 820 820 820 820 1000 770 1000" style="fill:#BFE1F3;stroke:#179AA9;stroke-width:0.25" />
+<polyline points="780 1000 770 990" style="stroke:#F25844;stroke-width:0.75" />
+<polyline points="0 770 180 770 180 820 3.48077e-06 820 0 770" style="fill:#BFE1F3;stroke:#179AA9;stroke-width:0.25" />
+<polyline points="6.96153e-07 780 10 770" style="stroke:#F25844;stroke-width:0.75" />
+<polyline points="0 720 180 720 180 770 3.48077e-06 770 0 720" style="fill:#BFE1F3;stroke:#179AA9;stroke-width:0.25" />
+<polyline points="6.96153e-07 730 10 720" style="stroke:#F25844;stroke-width:0.75" />
+<polyline points="0 640 180 640 180 720 5.56922e-06 720 0 640" style="fill:#FAAD35;stroke:#F25844;stroke-width:0.5" />
+<polyline points="1.11384e-06 656 16 640" style="stroke:#F25844;stroke-width:0.75" />
+<text text-anchor="middle" x="90" y="680" class="small">sg13g2_IOPadIOVss</text>
+<text text-anchor="middle" x="90" y="700" class="small">vss_2</text>
+<polyline points="0 590 180 590 180 640 3.48077e-06 640 0 590" style="fill:#BFE1F3;stroke:#179AA9;stroke-width:0.25" />
+<polyline points="6.96153e-07 600 10 590" style="stroke:#F25844;stroke-width:0.75" />
+<polyline points="0 540 180 540 180 590 3.48077e-06 590 0 540" style="fill:#BFE1F3;stroke:#179AA9;stroke-width:0.25" />
+<polyline points="6.96153e-07 550 10 540" style="stroke:#F25844;stroke-width:0.75" />
+<polyline points="0 460 180 460 180 540 5.56922e-06 540 0 460" style="fill:#FAAD35;stroke:#F25844;stroke-width:0.5" />
+<polyline points="1.11384e-06 476 16 460" style="stroke:#F25844;stroke-width:0.75" />
+<text text-anchor="middle" x="90" y="500" class="small">sg13g2_IOPadInOut4mA</text>
+<text text-anchor="middle" x="90" y="520" class="small">gpio_2</text>
+<polyline points="0 410 180 410 180 460 3.48077e-06 460 0 410" style="fill:#BFE1F3;stroke:#179AA9;stroke-width:0.25" />
+<polyline points="6.96153e-07 420 10 410" style="stroke:#F25844;stroke-width:0.75" />
+<polyline points="0 360 180 360 180 410 3.48077e-06 410 0 360" style="fill:#BFE1F3;stroke:#179AA9;stroke-width:0.25" />
+<polyline points="6.96153e-07 370 10 360" style="stroke:#F25844;stroke-width:0.75" />
+<polyline points="0 280 180 280 180 360 5.56922e-06 360 0 280" style="fill:#FAAD35;stroke:#F25844;stroke-width:0.5" />
+<polyline points="1.11384e-06 296 16 280" style="stroke:#F25844;stroke-width:0.75" />
+<text text-anchor="middle" x="90" y="320" class="small">sg13g2_IOPadIOVdd</text>
+<text text-anchor="middle" x="90" y="340" class="small">vdd_2</text>
+<polyline points="0 230 180 230 180 280 3.48077e-06 280 0 230" style="fill:#BFE1F3;stroke:#179AA9;stroke-width:0.25" />
+<polyline points="6.96153e-07 240 10 230" style="stroke:#F25844;stroke-width:0.75" />
+<polyline points="0 180 180 180 180 230 3.48077e-06 230 0 180" style="fill:#BFE1F3;stroke:#179AA9;stroke-width:0.25" />
+<polyline points="6.96153e-07 190 10 180" style="stroke:#F25844;stroke-width:0.75" />
+<polyline points="1000 820 820 820 820 770 1000 770 1000 820" style="fill:#BFE1F3;stroke:#179AA9;stroke-width:0.25" />
+<polyline points="1000 810 990 820" style="stroke:#F25844;stroke-width:0.75" />
+<polyline points="1000 770 820 770 820 720 1000 720 1000 770" style="fill:#BFE1F3;stroke:#179AA9;stroke-width:0.25" />
+<polyline points="1000 760 990 770" style="stroke:#F25844;stroke-width:0.75" />
+<polyline points="1000 720 820 720 820 640 1000 640 1000 720" style="fill:#FAAD35;stroke:#F25844;stroke-width:0.5" />
+<polyline points="1000 704 984 720" style="stroke:#F25844;stroke-width:0.75" />
+<text text-anchor="middle" x="910" y="680" class="small">sg13g2_IOPadIOVss</text>
+<text text-anchor="middle" x="910" y="700" class="small">vss_3</text>
+<polyline points="1000 640 820 640 820 590 1000 590 1000 640" style="fill:#BFE1F3;stroke:#179AA9;stroke-width:0.25" />
+<polyline points="1000 630 990 640" style="stroke:#F25844;stroke-width:0.75" />
+<polyline points="1000 590 820 590 820 540 1000 540 1000 590" style="fill:#BFE1F3;stroke:#179AA9;stroke-width:0.25" />
+<polyline points="1000 580 990 590" style="stroke:#F25844;stroke-width:0.75" />
+<polyline points="1000 540 820 540 820 460 1000 460 1000 540" style="fill:#FAAD35;stroke:#F25844;stroke-width:0.5" />
+<polyline points="1000 524 984 540" style="stroke:#F25844;stroke-width:0.75" />
+<text text-anchor="middle" x="910" y="500" class="small">sg13g2_IOPadInOut4mA</text>
+<text text-anchor="middle" x="910" y="520" class="small">gpio_3</text>
+<polyline points="1000 460 820 460 820 410 1000 410 1000 460" style="fill:#BFE1F3;stroke:#179AA9;stroke-width:0.25" />
+<polyline points="1000 450 990 460" style="stroke:#F25844;stroke-width:0.75" />
+<polyline points="1000 410 820 410 820 360 1000 360 1000 410" style="fill:#BFE1F3;stroke:#179AA9;stroke-width:0.25" />
+<polyline points="1000 400 990 410" style="stroke:#F25844;stroke-width:0.75" />
+<polyline points="1000 360 820 360 820 280 1000 280 1000 360" style="fill:#FAAD35;stroke:#F25844;stroke-width:0.5" />
+<polyline points="1000 344 984 360" style="stroke:#F25844;stroke-width:0.75" />
+<text text-anchor="middle" x="910" y="320" class="small">sg13g2_IOPadIOVdd</text>
+<text text-anchor="middle" x="910" y="340" class="small">vdd_3</text>
+<polyline points="1000 280 820 280 820 230 1000 230 1000 280" style="fill:#BFE1F3;stroke:#179AA9;stroke-width:0.25" />
+<polyline points="1000 270 990 280" style="stroke:#F25844;stroke-width:0.75" />
+<polyline points="1000 230 820 230 820 180 1000 180 1000 230" style="fill:#BFE1F3;stroke:#179AA9;stroke-width:0.25" />
+<polyline points="1000 220 990 230" style="stroke:#F25844;stroke-width:0.75" />
+</svg>
