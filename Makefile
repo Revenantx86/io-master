@@ -47,7 +47,7 @@ gf180:
 # 2. Merge GF180 GDS using KLayout script
 	@echo "--- Merging GF180 GDS ---"
 	$(KLAYOUT_BIN) -z -r scripts/gf180/merge_gf180.py
-
+	$(KLAYOUT_BIN) -b -r scripts/gf180/png.py -rd input_file=build/gf180/gf180_final.gds -rd output_file=build/gf180/gf180_final.png
 # ==============================================================================# UTILITIES
 # ==============================================================================
 clean:
