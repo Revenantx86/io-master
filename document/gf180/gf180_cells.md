@@ -135,3 +135,161 @@ Even though this is an analog pad, it includes the standard power rail connectio
 ## Physical Information
 * **Obstructions:** The cell has `OBS` (obstruction) definitions on layers `Nwell` and `Metal1` through `Metal5`. You cannot route over this cell; signals must connect only to the defined ports.
 * **Antenna Info:** The `ASIG5V` pin has a defined antenna difference area of `1200.0`.
+
+
+
+# gf180mcu_fd_io__bi_24t
+
+## Cell Information
+* **Macro Name:** `gf180mcu_fd_io__bi_24t`
+* **Library:** `gf180mcu_fd_io` (Foundation IO)
+* **Type:** `PAD INOUT` (Bidirectional)
+* **Dimensions:** 75.000 µm × 350.000 µm
+* **Site:** `GF_IO_Site`
+
+## Description
+This is the **High-Drive Strength Bidirectional GPIO** pad. It functions similarly to the standard digital pad but is capable of sinking/sourcing significantly higher current (typically **24mA**). It is designed for driving heavy loads such as LEDs, long transmission lines, or high-capacitance off-chip traces.
+
+## Pin Descriptions
+
+### 1. Digital Signal Interface
+These pins connect to the internal digital core of the chip.
+
+| Pin Name | Direction | Layer | Function |
+| :--- | :--- | :--- | :--- |
+| **`A`** | `INPUT` | `Metal2` | **Data Input**. The signal coming *from* the core to be driven out to the pad. |
+| **`Y`** | `OUTPUT` | `Metal2` | **Data Output**. The signal read *from* the pad going into the core. |
+| **`OE`** | `INPUT` | `Metal2` | **Output Enable**. High = Drive `A` to Pad. Low = Input mode (High-Z). |
+| **`IE`** | `INPUT` | `Metal2` | **Input Enable**. High = Enable input buffer (value appears on `Y`). |
+| **`CS`** | `INPUT` | `Metal2` | **Chip Select**. Active control to enable the pad interface. |
+
+### 2. Configuration Control
+These inputs configure the electrical characteristics of the pad.
+
+| Pin Name | Direction | Layer | Function |
+| :--- | :--- | :--- | :--- |
+| **`PU`** | `INPUT` | `Metal2` | **Pull-Up Enable**. Activates internal pull-up resistor. |
+| **`PD`** | `INPUT` | `Metal2` | **Pull-Down Enable**. Activates internal pull-down resistor. |
+| **`SL`** | `INPUT` | `Metal2` | **Slew Rate**. Selects fast or slow edge rates. |
+
+> **Note:** Unlike the `ef` library version, this `fd` macro does *not* expose `PDRV` (drive strength) pins in this LEF definition, implying the drive strength is fixed at the high (24mA) level or handled differently in this subset.
+
+### 3. Physical Interface
+| Pin Name | Direction | Function |
+| :--- | :--- | :--- |
+| **`PAD`** | `INOUT` | **Physical Pad**. The large metal bond pad (`Metal5`) connecting to the package. |
+
+### 4. Power Supply (Ring Continuity)
+The pad maintains power ring continuity for both Core and IO domains.
+
+| Pin Name | Direction | Domain | Function |
+| :--- | :--- | :--- | :--- |
+| **`VDD`** | `INOUT` | **IO Ring** | High Voltage Supply (3.3V / 5.0V). |
+| **`VSS`** | `INOUT` | **IO Ring** | High Voltage Ground. |
+| **`DVDD`** | `INOUT` | **Core** | Low Voltage Supply (1.8V). |
+| **`DVSS`** | `INOUT` | **Core** | Low Voltage Ground. |
+
+## Physical Information
+* **Antenna Info:**
+    * `A`: Gate Area 4.2, Diff Area 1.0
+    * `PAD`: Diff Area 335.28 (Significantly larger than standard pads due to larger driver transistors).
+* **Obstructions:** Contains standard `Nwell` and `Metal1-5` obstructions to preventing routing over the active circuitry.
+
+
+# gf180mcu_fd_io__bi_t
+
+## Cell Information
+* **Macro Name:** `gf180mcu_fd_io__bi_t`
+* **Library:** `gf180mcu_fd_io` (Foundation IO)
+* **Type:** `PAD INOUT` (Bidirectional)
+* **Dimensions:** 75.000 µm × 350.000 µm
+* **Site:** `GF_IO_Site`
+
+## Description
+This is the **Standard Bidirectional GPIO** pad from the Foundation library. It is the most commonly used pad for general-purpose digital I/O. Unlike the High-Drive (`24t`) version, this cell exposes drive strength configuration pins (`PDRV`), allowing you to dynamically adjust the output current capability.
+
+## Pin Descriptions
+
+### 1. Digital Signal Interface
+These pins connect to the internal digital core of the chip.
+
+| Pin Name | Direction | Layer | Function |
+| :--- | :--- | :--- | :--- |
+| **`A`** | `INPUT` | `Metal2` | **Data Input**. The signal coming *from* the core to be driven out to the pad. |
+| **`Y`** | `OUTPUT` | `Metal2` | **Data Output**. The signal read *from* the pad going into the core. |
+| **`OE`** | `INPUT` | `Metal2` | **Output Enable**. High = Drive `A` to Pad. Low = Input mode (High-Z). |
+| **`IE`** | `INPUT` | `Metal2` | **Input Enable**. High = Enable input buffer (value appears on `Y`). |
+| **`CS`** | `INPUT` | `Metal2` | **Chip Select**. Enables the pad interface. |
+
+### 2. Configuration Control
+These inputs configure the electrical characteristics of the pad.
+
+| Pin Name | Direction | Layer | Function |
+| :--- | :--- | :--- | :--- |
+| **`PDRV0`** | `INPUT` | `Metal2` | **Drive Strength Bit 0**. |
+| **`PDRV1`** | `INPUT` | `Metal2` | **Drive Strength Bit 1**. Controls output current (e.g., 4mA, 8mA, etc.). |
+| **`PU`** | `INPUT` | `Metal2` | **Pull-Up Enable**. Activates internal pull-up resistor. |
+| **`PD`** | `INPUT` | `Metal2` | **Pull-Down Enable**. Activates internal pull-down resistor. |
+| **`SL`** | `INPUT` | `Metal2` | **Slew Rate**. Selects fast or slow edge rates to manage noise/EMI. |
+
+### 3. Physical Interface
+| Pin Name | Direction | Function |
+| :--- | :--- | :--- |
+| **`PAD`** | `INOUT` | **Physical Pad**. The large metal bond pad (`Metal5`) connecting to the package. |
+
+### 4. Power Supply (Ring Continuity)
+The pad maintains power ring continuity for both Core and IO domains.
+
+| Pin Name | Direction | Domain | Function |
+| :--- | :--- | :--- | :--- |
+| **`VDD`** | `INOUT` | **IO Ring** | High Voltage Supply (3.3V / 5.0V). |
+| **`VSS`** | `INOUT` | **IO Ring** | High Voltage Ground. |
+| **`DVDD`** | `INOUT` | **Core** | Low Voltage Supply (1.8V). |
+| **`DVSS`** | `INOUT` | **Core** | Low Voltage Ground. |
+
+## Comparison Notes
+* **Vs. `ef_io__bi_t`:** This `fd` version lacks the `ANA` (Analog Pass-through) pin found in the `ef` (Extra Features) version.
+* **Vs. `fd_io__bi_24t`:** This standard version includes `PDRV` pins for adjustable drive strength, whereas the `24t` version (in the previous LEF) had fixed high drive strength.
+
+## Physical Information
+* **Antenna Info:**
+    * `A`: Gate Area 4.2, Diff Area 1.0.
+    * `PAD`: Diff Area 258.72 (Smaller than the high-drive version).
+* **Layers:** Uses `Metal2` for logic connections and `Metal3/4/5` for power rail distribution.
+
+# gf180mcu_fd_io__brk2
+
+## Cell Information
+* **Macro Name:** `gf180mcu_fd_io__brk2`
+* **Library:** `gf180mcu_fd_io` (Foundation IO)
+* **Type:** `PAD` (Physical Spacer/Breaker)
+* **Dimensions:** 2.000 µm × 350.000 µm
+* **Site:** `GF_IO_Site`
+
+## Description
+This is a **2µm Power Breaker Cell**. It is inserted into the IO ring to physically break the continuity of specific power rails. This allows the creation of isolated voltage domains (e.g., separating noisy Digital IO power from sensitive Analog IO power) while maintaining a common ground reference.
+
+## Pin Descriptions
+
+### 1. Continuous Rails (Pass-Through)
+This cell **maintains continuity** for the following rail. The metal connection exists and passes through the cell.
+
+| Pin Name | Direction | Layer | Function |
+| :--- | :--- | :--- | :--- |
+| **`VSS`** | `INOUT` | `Metal3`, `Metal4`, `Metal5` | **IO Ring Ground**. The High Voltage Ground rail is **continuous** through this breaker. This ensures a common ESD discharge path and ground reference across domains. |
+
+### 2. Broken Rails (Isolated)
+The following pins are **NOT present** in this LEF definition. Therefore, these rails are **cut (discontinued)** at this cell location:
+
+* **`VDD` (IO Ring Power):** **BROKEN**. 3.3V/5.0V power does not pass through.
+* **`DVDD` (Core Power):** **BROKEN**. 1.8V core power does not pass through.
+* **`DVSS` (Core Ground):** **BROKEN**. 1.8V core ground does not pass through.
+
+> **Design Note:** Use this cell when you need separate VDD supplies but want to keep a unified VSS (Common Ground) on the IO ring.
+
+## Physical Information
+* **Width:** Very narrow (2.000 µm).
+* **Obstructions:**
+    * `Metal1`: Blocked explicitly to prevent routing through the gap.
+    * `Metal2`: Blocked explicitly.
+    * Higher metals (M3/M4/M5) are not obstructed generally, but since there are no ports defined for VDD/DVDD/DVSS, standard routers will not try to connect those specific nets across this gap.
