@@ -7,6 +7,9 @@ KLAYOUT_BIN = klayout
 # --- IHP SOURCE PATHS ---
 IHP_IO_LEF = $(PDK_ROOT)/ihp-sg13g2/libs.ref/sg13g2_io/lef/sg13g2_io.lef
 
+# --- GF180 SOURCE PATHS ---
+GF180_IO_LEF = ./lef/gf180/gf180_io_merged.lef
+
 # --- TARGETS ---
 
 .PHONY: all sg130 clean
@@ -31,6 +34,19 @@ sg130:
 	@echo "--- Merging IHP GDS ---"
 	$(KLAYOUT_BIN) -z -r scripts/sg130/merge_sg130.py
 
+gf180:
+	mkdir -p build/gf180
+# 1. Run Padring (Generates the layout skeleton)
+	@echo "--- Running Padring for GF180 ---"
+	$(PADRING_BIN) \
+		--lef $(GF180_IO_LEF) \
+		--svg build/gf180/gf180.svg \
+		--def build/gf180/gf180.def \
+		-o build/gf180/gf180.gds \
+		scripts/gf180/gf180.config
+# 2. Merge GF180 GDS using KLayout script
+	@echo "--- Merging GF180 GDS ---"
+	$(KLAYOUT_BIN) -z -r scripts/gf180/merge_gf180.py
 
 # ==============================================================================# UTILITIES
 # ==============================================================================
