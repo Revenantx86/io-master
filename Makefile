@@ -33,6 +33,8 @@ sg130:
 # 2. Merge IHP GDS using KLayout script
 	@echo "--- Merging IHP GDS ---"
 	$(KLAYOUT_BIN) -z -r scripts/sg130/merge_sg130.py
+	$(KLAYOUT_BIN) -b -r scripts/sg130/png.py -rd input_file=build/sg130/sg130_final.gds -rd output_file=build/sg130/sg130_final.png
+
 
 gf180:
 	mkdir -p build/gf180

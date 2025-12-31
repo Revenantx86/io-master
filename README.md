@@ -22,8 +22,8 @@ Below you can see some examples generated using YOSYS/Padring tool and klayout:
 
 ## Documentation
 Full details on the IO padring cells can be found here:
-* [IO Cell Library Reference](document/gf180/gf180_cells.md)
-
+* [GF180 IO Cell Reference](document/gf180/gf180_cells.md)
+* [SG130 IO Cell Reference](document/sg130/sg130_cells.md)
 
 # Usage
 # Build System Documentation
